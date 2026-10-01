@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script type="module" src="./src/index.js"></script>
   <title>Document</title>
@@ -11,17 +14,18 @@
 
 <body>
   <header-component>
-    <logo-component title="lolito.ai - usuarios"></logo-component>
-    <menu-component></menu-component>
+    <logo-component></logo-component>
   </header-component>
+
+
+  <barra-lateral-component>
+    <historial-component slot="historial"></historial-component>
+    <mi-cuenta-component slot="cuenta"></mi-cuenta-component>
+  </barra-lateral-component>
+
   <main-component>
-    <table-component labels='{
-      "nombre": "Nombre"
-      "email": "Email"
-      "fechaCreacion": "Fecha de creacion"
-      "fechaActualizacion": "Fecha de actualizacion"
-    }'></table-component>
-    <form-component></form-component>
+    <titulo-component></titulo-component>
+    <prompt-input-component></prompt-input-component>
   </main-component>
 </body>
 
