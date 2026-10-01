@@ -1,0 +1,8 @@
+import './components/barra-lateral.js'
+import './components/logo.js'
+import './components/mi-cuenta.js'
+import './components/prompt-input.js'
+import './components/historial.js'
+import './components/titulo.js'
+import './components/main.js'
+import './components/header.js'
