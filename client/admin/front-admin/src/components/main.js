@@ -14,14 +14,19 @@ class Main extends HTMLElement {
       /*html*/`
     <style>
       main {
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-left: 15rem;
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: 2fr 6fr;
+        padding: 1.5rem 4rem;
+        max-height: 92vh;
       }
-     
+
+      @media (max-width: 450px) {
+        main{
+          width: 100%;
+          padding: 0.2rem;
+        }
+      }
     </style>
 
     <main>

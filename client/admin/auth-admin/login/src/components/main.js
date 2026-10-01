@@ -1,4 +1,4 @@
-class Header extends HTMLElement {
+class Main extends HTMLElement {
 
   constructor() {
     super()
@@ -13,26 +13,30 @@ class Header extends HTMLElement {
     this.shadow.innerHTML =
       /*html*/`
     <style>
-      header {
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+       main {
+        background-color: hsl(200, 50%, 50%);
+        height: 100vh;
         width: 100%;
-        height: 5vh;
         display: flex;
+        justify-content: center;
         align-items: center;
-        padding: 0 2%;
-        position: fixed;
-        top: 0;
-        left: 50%;
-        z-index: 1001;
       }
 
-     
     </style>
-  
-    <header>
+
+    <main>
       <slot></slot>
-    </header>
-     `
+    </main>
+
+    `
   }
 }
 
-customElements.define('header-component', Header);
+customElements.define('main-component', Main);
