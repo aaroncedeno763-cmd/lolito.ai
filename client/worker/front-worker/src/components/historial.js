@@ -200,15 +200,6 @@ class Historial extends HTMLElement {
       ul.appendChild(li)
     });
 
-
-
-
-
-
-
-
-
-
   }
 }
 
