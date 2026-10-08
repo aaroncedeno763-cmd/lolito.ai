@@ -14,10 +14,17 @@ class PromptInput extends HTMLElement {
       /*html*/`
     <style>
 
+      form {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
 
       .promt-input {
         width: 45vw;
-        height: 7vh;
+        min-height: 3.5rem;
         background-color: hsl(0, 0%, 14%);
         border-radius: 2rem;
         display: flex;
@@ -38,44 +45,76 @@ class PromptInput extends HTMLElement {
         }
 
 
-        .boton-mas {
-          width: 2rem;
-          height: 2rem;
-          background-color: hsl(0, 0%, 20%);
-          color: hsl(0, 0%, 100%);
-          border: none;
-          border-radius: 50%;
-          font-size: 1.2rem;
-          cursor: pointer;
-        }
+      .boton-mas {
+        width: 2rem;
+        height: 2rem;
+        background-color: hsl(0, 0%, 20%);
+        color: hsl(0, 0%, 100%);
+        border: none;
+        border-radius: 50%;
+        font-size: 1.2rem;
+        cursor: pointer;
+      }
 
-        .boton-mas:hover{
-          background-color: hsl(0, 0%, 30%);
-        }
+      .boton-mas:hover{
+        background-color: hsl(0, 0%, 30%);
+      }
 
+      .boton-enviar {
+        width: 3rem;
+        height: 3rem;
+        background-color: hsl(214, 46%, 30%);
+        color: hsl(0, 0%, 100%);
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+      }
 
-        .boton-enviar {
-          width: 3rem;
-          height: 3rem;
-          background-color: hsl(214, 46%, 30%);
-          color: hsl(0, 0%, 100%);
-          border: none;
-          border-radius: 50%;
-          cursor: pointer;
-        }
-
-        .boton-enviar:hover{
-          background-color: hsl(214, 46%, 40%);
-        }
+      .boton-enviar:hover{
+        background-color: hsl(214, 46%, 40%);
+      }
 
     </style>
-    <div class="promt-input">
-      <button class="boton-mas">+</button>
-      <input type="text" placeholder="¿En qué puedo ayudarte hoy?">
-      <button class="boton-enviar">Enviar</button>
-    </div>
+
+    <form>
+      <div class="promt-input">
+        <button type="button" class="boton-mas">+</button>
+        <textarea type="text" placeholder="¿En qué puedo ayudarte hoy?" rows="1"></textarea>
+        <button type="submit" class="boton-enviar">Enviar</button>
+      </div>
+    </form>
     `
   }
 }
+
+export default (() => {
+
+  const form = document.querySelector('form');
+  const sendFormButton = document.querySelector('.boton-enviar');
+
+  sendFormButton.addEventListener('click', async event => {
+    event.preventDefault();
+
+    let formData = new FormData(form);
+    let formDataJson = Object.fromEntries(formData.entries());
+
+    try {
+
+      const response = await fetch('http://localhost:5177/', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formDataJson)
+      })
+
+      const data = await response.json()
+
+    } catch (error) {
+      console.log(error);
+    }
+  });
+
+})();
 
 customElements.define('prompt-input-component', PromptInput);
