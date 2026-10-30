@@ -7,6 +7,7 @@ class PromptInput extends HTMLElement {
 
   connectedCallback() {
     this.render()
+    this.eventos()
   }
 
   render() {
@@ -85,39 +86,43 @@ class PromptInput extends HTMLElement {
     </form>
     `
   }
+
+  eventos() {
+    const form = this.shadow.querySelector('.prompt-input')
+    form.addEventListener('click', async event => {
+      event.preventDefault()
+
+      if (event.target.closest('.boton-enviar')) {
+        const form = this.shadow.querySelector('form')
+        const formData = new FormData(form)
+        const formDataJson = Object.fromEntries(formData.entries())
+
+        try {
+          const result = await fetch(`${import.meta.env.VITE_API_URL}/api/worker/chats`, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formDataJson)
+          })
+
+          if (result.ok) {
+            form.reset()
+            const data = await result.json()
+            console.log(data.response)
+          }
+        } catch (error) {
+          console.log(error)
+        }
+
+      }
+    })
+  }
 }
 
 
-export default () =>
-  this.shadow.querySelector('.prompt-input').addEventListener('click', async event => {
-    event.preventDefault()
 
-    if (event.target.closest('.boton-enviar')) {
-      const form = this.shadow.querySelector('form')
-      const formData = new FormData(form)
-      const formDataJson = Object.fromEntries(formData.entries())
 
-      try {
-        const result = await fetch(`${import.meta.env.VITE_API_URL}/api/worker/chats`, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify(formDataJson)
-        })
 
-        if (result.ok) {
-          form.reset()
-          const data = await result.json()
-          console.log(data.response)
-        }
-      } catch (error) {
-        console.log(error)
-      }
-
-    }
-  })
-
-    ();
 
 customElements.define('prompt-input-component', PromptInput);
