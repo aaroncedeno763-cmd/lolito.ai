@@ -4,7 +4,7 @@ const app = express();
 
 const options = {
   target: 'http://127.0.0.1:8080',
-  cookieDomainRewrite: 'dev-app.lolito.ai',
+  cookieDomainRewrite: 'dev-app.lolito.ai.com',
   changeOrigin: true,
   logLevel: 'debug',
   onProxyReq: function (proxyReq, req, res) {
@@ -34,3 +34,5 @@ options.target = 'http://localhost:5176';
 app.use('/login', createProxyMiddleware(options));
 
 app.listen(80, '127.0.0.1');
+
+module.export = app

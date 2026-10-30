@@ -22,7 +22,7 @@ class PromptInput extends HTMLElement {
         justify-content: center;
       }
 
-      .promt-input {
+      .prompt-input {
         width: 45vw;
         min-height: 3.5rem;
         background-color: hsl(0, 0%, 14%);
@@ -34,7 +34,7 @@ class PromptInput extends HTMLElement {
        }
 
 
-      .promt-input input {
+      .prompt-input textarea {
         width: 100%;
         min-width: 0;
         background-color: transparent;
@@ -77,9 +77,9 @@ class PromptInput extends HTMLElement {
     </style>
 
     <form>
-      <div class="promt-input">
+      <div class="prompt-input">
         <button type="button" class="boton-mas">+</button>
-        <textarea type="text" placeholder="¿En qué puedo ayudarte hoy?" rows="1"></textarea>
+        <textarea type="text" name= "prompt" placeholder="¿En qué puedo ayudarte hoy?" rows="1"></textarea>
         <button type="submit" class="boton-enviar">Enviar</button>
       </div>
     </form>
@@ -87,34 +87,37 @@ class PromptInput extends HTMLElement {
   }
 }
 
-export default (() => {
 
-  const form = document.querySelector('form');
-  const sendFormButton = document.querySelector('.boton-enviar');
+export default () =>
+  this.shadow.querySelector('.prompt-input').addEventListener('click', async event => {
+    event.preventDefault()
 
-  sendFormButton.addEventListener('click', async event => {
-    event.preventDefault();
+    if (event.target.closest('.boton-enviar')) {
+      const form = this.shadow.querySelector('form')
+      const formData = new FormData(form)
+      const formDataJson = Object.fromEntries(formData.entries())
 
-    let formData = new FormData(form);
-    let formDataJson = Object.fromEntries(formData.entries());
+      try {
+        const result = await fetch(`${import.meta.env.VITE_API_URL}/api/worker/chats`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(formDataJson)
+        })
 
-    try {
+        if (result.ok) {
+          form.reset()
+          const data = await result.json()
+          console.log(data.response)
+        }
+      } catch (error) {
+        console.log(error)
+      }
 
-      const response = await fetch('http://localhost:5177/', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(formDataJson)
-      })
-
-      const data = await response.json()
-
-    } catch (error) {
-      console.log(error);
     }
-  });
+  })
 
-})();
+    ();
 
 customElements.define('prompt-input-component', PromptInput);
