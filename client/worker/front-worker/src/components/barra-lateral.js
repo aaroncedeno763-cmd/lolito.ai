@@ -185,6 +185,7 @@ class BarraLateral extends HTMLElement {
     const barraLateral = this.shadow.querySelector(".botones");
     botonCerrar.addEventListener('click', () => {
       barraLateral.classList.toggle("botones-cerrar")
+      this.toggleAttribute('cerrada', barraLateral.classList.contains('botones-cerrar'))
       cuenta.toggleAttribute("cerrada")
     })
   }

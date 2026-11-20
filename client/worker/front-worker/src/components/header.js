@@ -13,17 +13,19 @@ class Header extends HTMLElement {
     this.shadow.innerHTML =
       /*html*/`
     <style>
-      header {
-        width: 100%;
-        height: 5vh;
-        display: flex;
-        align-items: center;
-        padding: 0 2%;
-        position: fixed;
-        top: 0;
-        left: 50%;
-        z-index: 1001;
-      }
+   header {
+    position: fixed;
+    top: 0;
+    left: var(--ancho-lateral);
+    right: 0;
+    height: var(--alto-cabecera);
+    display: flex;
+    align-items: center;
+    padding-inline: 1rem;
+    background: #1b2028;
+    border-bottom: 1px solid #303742;
+    z-index: 1001;
+  }
 
      
     </style>

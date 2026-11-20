@@ -13,27 +13,30 @@ class Main extends HTMLElement {
     this.shadow.innerHTML =
       /*html*/`
    <style>
-      :host {
-        display: block;
-        margin-left: 15rem;
-      }
+    :host {
+      display: block;
+      margin-left: var(--ancho-lateral);
+      --ancho-chat: min(48rem, calc(100% - 2rem));
+    }
 
       main {
         position: relative;
         height: 100dvh;
       }
 
-      .respuesta {
+     .respuesta {
         position: absolute;
-        inset: 1rem 1rem 6rem;
-        max-width: 45vw;
+        inset: var(--alto-cabecera) 0 6rem;
+        width: var(--ancho-chat);
         margin-inline: auto;
+        padding-top: 1.25rem;
         overflow-y: auto;
       }
-
-      ::slotted(#respuesta) {
-        white-space: pre-wrap;
-        overflow-wrap: anywhere;
+      
+      ::slotted(prompt-input-component) {
+        display: block;
+        width: var(--ancho-chat);
+        margin-inline: auto;
       }
 
       .barra {

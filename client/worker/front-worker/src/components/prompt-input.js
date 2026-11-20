@@ -96,7 +96,7 @@ class PromptInput extends HTMLElement {
         const form = this.shadow.querySelector('form')
         const formData = new FormData(form)
         const formDataJson = Object.fromEntries(formData.entries())
-        if (!formDataJson.prompt.trim()) return
+        if (!formDataJson.userQuery?.trim()) return
 
         const chat = this.closest('main-component')
         chat.classList.add('chat-activo')
@@ -112,7 +112,8 @@ class PromptInput extends HTMLElement {
 
           if (result.ok) {
             const respuesta = chat.querySelector('#respuesta')
-            respuesta.textContent = await result.text()
+            const data = await result.json()
+            respuesta.textContent = data.answer
             respuesta.parentElement.shadowRoot.querySelector('.respuesta').scrollTop = 0
 
             if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {

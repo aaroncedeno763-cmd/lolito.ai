@@ -51,10 +51,12 @@ exports.create = async (req, res, next) => {
     const candidates = [...candidatesByPath.values()]
 
     if (!candidates.length) {
-      console.log('No se encontraron PDF candidatos.')
-      return
+      return res.status(200).json({
+        answer: 'No encontré información para responder a tu pregunta.',
+        status: 'insufficient_information',
+        sources: []
+      })
     }
-
     const stats = await Promise.all(
       candidates.map(candidate => fs.stat(candidate.filepath))
     )

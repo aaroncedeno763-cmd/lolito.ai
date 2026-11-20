@@ -81,3 +81,33 @@ main {
   border: none;
   border-radius: 50%;
 }
+
+body {
+  --ancho-lateral: 20vw;
+  --alto-cabecera: 3.75rem;
+  background: #1b2028;
+}
+
+body:has(barra-lateral-component[cerrada]) {
+  --ancho-lateral: 3.25rem;
+}
+
+.mensaje {
+  margin-bottom: 1.5rem;
+  line-height: 1.65;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.mensaje--usuario {
+  width: fit-content;
+  max-width: 85%;
+  margin-left: auto;
+  padding: 0.65rem 1rem;
+  border-radius: 1.25rem;
+  background: #30486a;
+}
+
+.mensaje--asistente {
+  margin-right: 0.75rem;
+}
