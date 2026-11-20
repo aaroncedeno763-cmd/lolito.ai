@@ -80,7 +80,7 @@ class PromptInput extends HTMLElement {
     <form>
       <div class="prompt-input">
         <button type="button" class="boton-mas">+</button>
-        <textarea type="text" name= "prompt" placeholder="¿En qué puedo ayudarte hoy?" rows="1"></textarea>
+        <textarea type="text" name= "userQuery" placeholder="¿En qué puedo ayudarte hoy?" rows="1"></textarea>
         <button type="submit" class="boton-enviar">Enviar</button>
       </div>
     </form>
@@ -96,9 +96,13 @@ class PromptInput extends HTMLElement {
         const form = this.shadow.querySelector('form')
         const formData = new FormData(form)
         const formDataJson = Object.fromEntries(formData.entries())
+        if (!formDataJson.prompt.trim()) return
+
+        const chat = this.closest('main-component')
+        chat.classList.add('chat-activo')
 
         try {
-          const result = await fetch(`${import.meta.env.VITE_API_URL}/api/worker/chats`, {
+          const result = await fetch(`${import.meta.env.VITE_API_URL}/api/worker/messages`, {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json'
@@ -107,9 +111,18 @@ class PromptInput extends HTMLElement {
           })
 
           if (result.ok) {
+            const respuesta = chat.querySelector('#respuesta')
+            respuesta.textContent = await result.text()
+            respuesta.parentElement.shadowRoot.querySelector('.respuesta').scrollTop = 0
+
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+              respuesta.animate(
+                [{ opacity: 0 }, { opacity: 1 }],
+                { duration: 240, easing: 'ease-out' }
+              )
+            }
+
             form.reset()
-            const data = await result.json()
-            console.log(data.response)
           }
         } catch (error) {
           console.log(error)

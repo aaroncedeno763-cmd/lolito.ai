@@ -1,0 +1,1083 @@
+[
+  {
+    "id": "S000001",
+    "start_id": "U0000001",
+    "end_id": "U0000001",
+    "title": "Número de página",
+    "category": "metadata",
+    "keywords": [],
+    "pages": [
+      1
+    ],
+    "source_block_ids": [
+      "B1"
+    ],
+    "text": "7"
+  },
+  {
+    "id": "S000002",
+    "start_id": "U0000002",
+    "end_id": "U0000002",
+    "title": "Título: Reglas de Juego del Fútbol 7",
+    "category": "content",
+    "keywords": [
+      "Reglas de Juego",
+      "Fútbol 7"
+    ],
+    "pages": [
+      1
+    ],
+    "source_block_ids": [
+      "B2"
+    ],
+    "text": "REGLAS DE JUEGO\nDEL FÚTBOL•7"
+  },
+  {
+    "id": "S000003",
+    "start_id": "U0000003",
+    "end_id": "U0000003",
+    "title": "Nota sobre el uso del género masculino",
+    "category": "metadata",
+    "keywords": [
+      "árbitros",
+      "jugadores",
+      "oficiales",
+      "género masculino"
+    ],
+    "pages": [
+      2
+    ],
+    "source_block_ids": [
+      "B3"
+    ],
+    "text": "(*) Toda referencia al género masculino en las Reglas de Juego por lo que respecta a árbitros, árbitros asistentes, jugadores u oficiales equivaldrá (para simplificar la lectura), tanto a hombres como a mujeres."
+  },
+  {
+    "id": "S000004",
+    "start_id": "U0000004",
+    "end_id": "U0000004",
+    "title": "Número de página",
+    "category": "metadata",
+    "keywords": [],
+    "pages": [
+      3
+    ],
+    "source_block_ids": [
+      "B4"
+    ],
+    "text": "7"
+  },
+  {
+    "id": "S000005",
+    "start_id": "U0000005",
+    "end_id": "U0000005",
+    "title": "Título: Reglas de Juego del Fútbol 7",
+    "category": "content",
+    "keywords": [
+      "Reglas de Juego",
+      "Fútbol 7"
+    ],
+    "pages": [
+      3
+    ],
+    "source_block_ids": [
+      "B5"
+    ],
+    "text": "REGLAS DE JUEGO\nDEL FÚTBOL•7"
+  },
+  {
+    "id": "S000006",
+    "start_id": "U0000006",
+    "end_id": "U0000006",
+    "title": "Sumario",
+    "category": "content",
+    "keywords": [
+      "sumario"
+    ],
+    "pages": [
+      3
+    ],
+    "source_block_ids": [
+      "B6"
+    ],
+    "text": "sumario"
+  },
+  {
+    "id": "S000007",
+    "start_id": "U0000007",
+    "end_id": "U0000007",
+    "title": "Índice de las reglas del fútbol 7",
+    "category": "table",
+    "keywords": [
+      "terreno de juego",
+      "balón",
+      "número de jugadores",
+      "árbitro",
+      "faltas e incorrecciones",
+      "tiro libre",
+      "saque de esquina"
+    ],
+    "pages": [
+      3
+    ],
+    "source_block_ids": [
+      "B7"
+    ],
+    "text": "REGLA I     | El Terreno de Juego                        | 5\nREGLA II    | El Balón                                   | 6\nREGLA III   | Número de Jugadores                        | 7\nREGLA IV    | Equipamiento de los Jugadores              | 8\nREGLA V     | Árbitro                                    | 9\nREGLA VI    | Árbitros, Asistentes y Auxiliar de mesa    | 11\nREGLA VII   | La duración del Partido                    | 11\nREGLA VIII  | El inicio y la reanudación del Juego       | 12\nREGLA IX    | El Balón en Juego o fuera de Juego         | 14\nREGLA X     | El Gol marcado                             | 14\nREGLA XI    | El Fuera de Juego                          | 14\nREGLA XII   | Faltas e incorrecciones                    | 15\nREGLA XIII  | El Tiro Libre                              | 18\nREGLA XIV   | Del Penalty y su lanzamiento               | 20\nREGLA XV    | El Saque de Banda                          | 22\nREGLA XVI   | El Saque de Meta                           | 23\nREGLA XVII  | El Saque de Esquina                        | 25"
+  },
+  {
+    "id": "S000008",
+    "start_id": "U0000008",
+    "end_id": "U0000008",
+    "title": "Año de edición",
+    "category": "metadata",
+    "keywords": [
+      "2008"
+    ],
+    "pages": [
+      3
+    ],
+    "source_block_ids": [
+      "B8"
+    ],
+    "text": "2008"
+  },
+  {
+    "id": "S000009",
+    "start_id": "U0000009",
+    "end_id": "U0000009",
+    "title": "Medidas y rótulos del plano del terreno de juego",
+    "category": "table",
+    "keywords": [
+      "línea de meta",
+      "línea de banda",
+      "área de penalti",
+      "área de meta",
+      "punto de penalti"
+    ],
+    "pages": [
+      4
+    ],
+    "source_block_ids": [
+      "B9"
+    ],
+    "text": "9; 3; Línea de meta; 3; 0,6; 9; 12; Mínimo 50; Máximo 65; Línea de banda; Línea de medio campo; 6; Círculo; 6; Punto de Penalty; Área de Penalty; Área de meta; Máximo 45; Mínimo 30. 4 | RFEF www.rfef.es"
+  },
+  {
+    "id": "S000010",
+    "start_id": "U0000010",
+    "end_id": "U0000010",
+    "title": "Encabezado: Reglas de Juego del Fútbol 7",
+    "category": "boilerplate",
+    "keywords": [],
+    "pages": [
+      5
+    ],
+    "source_block_ids": [
+      "B10"
+    ],
+    "text": "7\nREGLAS DE JUEGO\nDEL FÚTBOL•7"
+  },
+  {
+    "id": "S000011",
+    "start_id": "U0000011",
+    "end_id": "U0000029",
+    "title": "Regla I: El terreno de juego",
+    "category": "content",
+    "keywords": [
+      "superficie de juego",
+      "dimensiones del campo",
+      "marcación del terreno",
+      "área de meta",
+      "área de penalti",
+      "zona de fuera de juego",
+      "área de esquina",
+      "marcos",
+      "porterías"
+    ],
+    "pages": [
+      5,
+      6
+    ],
+    "source_block_ids": [
+      "B11",
+      "B12",
+      "B13",
+      "B14",
+      "B15",
+      "B16",
+      "B17",
+      "B18",
+      "B19",
+      "B20",
+      "B21",
+      "B22",
+      "B23",
+      "B24",
+      "B25",
+      "B26",
+      "B27",
+      "B28",
+      "B29"
+    ],
+    "text": "REGLA I\nEL TERRENO DE JUEGO\nEl terreno de juego y sus características se determinan con arreglo al plano de la página anterior.\n1. SUPERFICIE DE JUEGO. Podrá ser de tierra, hierba natural o artificial.\n2. DIMENSIONES. El campo de juego será un rectángulo de una longitud máxima de 65 metros y mínima de 50 metros, y de una anchura no mayor de 45 metros ni menor de 30.\n3. MARCACIÓN DEL TERRENO. El terreno de juego se marcará con líneas. Dichas líneas pertenecerán a las zonas que demarcan. Las dos líneas de marcación más larga se denominan líneas de banda. Las dos más cortas se llaman líneas de meta. El terreno de juego estará dividido en dos mitades por una línea media. El centro del campo estará marcado con un punto en la mitad de la línea media, alrededor de la cual se trazará un círculo con un radio de 6 metros. Todas las líneas tendrán una anchura de 12 centímetros, como máximo.\nEn cada esquina del campo se colocará una banderola cuya asta, que no será puntiaguda, tendrá una altura de 1.50 metros, como mínimo.\n4. ÁREA DE META. El área de meta, situada en ambos extremos del terreno de juego, se determinará de la siguiente manera:\n• Se trazarán dos líneas perpendiculares a la línea de meta, a 3 metros de la parte interior de cada poste de meta. Dichas líneas se adentrarán 3 metros en el terreno de juego y se unirán con una línea paralela a la línea de meta. El área delimitada por dichas líneas y la línea de meta será el área de meta.\n5. ÁREA DE PENALTI. El área de penalti, situada en ambos extremos del terreno de juego, se determinará de la siguiente manera:\n1. Se trazarán dos líneas perpendiculares a la línea de meta, a 9 metros de la parte interior de cada poste de meta. Dichas líneas se adentrarán 9 metros en el terreno de juego y se unirán con una línea paralela a la línea de meta. El área delimitada por dichas líneas y la línea de meta, será el área de penalti.\nReglas de Juego del Fútbol - 7   5\n7\n2. En cada área de penalti se marcará un punto (punto de penalti) a 9 metros de distancia del punto medio de la línea entre los postes y equidistantes entre éstos. Al exterior de cada área de penalti se trazará un semicírculo con un radio de 6 metros desde el punto de penalti.\n6. ZONA DE FUERA DE JUEGO. La zona de fuera de juego situada en ambos extremos del terreno de juego, se delimitará de la siguiente manera:\n• Se trazará una línea paralela a la línea de meta adentrándose 12 metros en el terreno de juego y que unirá las dos líneas de banda.\nLa superficie comprendida entre esta línea y la línea de meta se llamará zona de fuera de juego.\n7. ÁREA DE ESQUINA. Con un radio de 0.6 metros, medido desde cada banderola de esquina, se marcarán cuatro arcos de circunferencia en la parte interior del terreno.\n8. LOS MARCOS.\n1. En el centro de cada línea de meta se colocarán los marcos, que estarán formados por dos postes verticales, equidistantes de las banderolas de esquina, separados 6 metros entre sí (medida interior) y unidos en sus extremos por un larguero horizontal cuyo borde inferior estará a 2 metros del suelo. La anchura y el grueso de los postes y del larguero transversal no podrán exceder de 12 centímetros. Los postes y el larguero transversal deberán tener el mismo ancho.\n2. Podrán ponerse redes enganchadas a los postes, al larguero y al suelo por detrás de los marcos, debiendo estar sujetas en forma conveniente y colocadas de manera que no estorben al guardameta.\nEstá permitido el uso de redes hechas de cáñamo, yute o nylon. Sin embargo, las cuerdas de nylon no pueden ser más delgadas que aquéllas hechas de cáñamo o yute.\n3. Los postes y travesaños deberán ser de color blanco, de madera, metal u otro material aprobado y homologado oficialmente. Pueden tener forma cuadrada, rectangular, redonda o elíptica y deberán estar anclados firmemente en el suelo. Se podrán utilizar metas portátiles en caso de que se cumpla esta última condición."
+  },
+  {
+    "id": "S000012",
+    "start_id": "U0000030",
+    "end_id": "U0000033",
+    "title": "Regla II: Propiedades y medidas del balón",
+    "category": "content",
+    "keywords": [
+      "balón",
+      "circunferencia",
+      "peso",
+      "presión"
+    ],
+    "pages": [
+      6
+    ],
+    "source_block_ids": [
+      "B30",
+      "B31",
+      "B32",
+      "B33"
+    ],
+    "text": "REGLA II\nEL BALÓN\n1. PROPIEDADES Y MEDIDAS. EL balón será esférico, su cubierta será de cuero u otro material homologado al efecto. En su confección, no se empleará ningún material que pueda constituir un peligro para los jugadores.\nEl balón tendrá una circunferencia no superior a 66 centímetros ni inferior a 62 centímetros.\nEl balón, al inicio del partido, tendrá un peso no superior a 390 gramos ni inferior a 340 gramos, y un presión equivalente a 0,4 – 0,6 atmósferas (400 – 600 g/cms) al nivel del mar."
+  },
+  {
+    "id": "S000013",
+    "start_id": "U0000034",
+    "end_id": "U0000035",
+    "title": "Elementos de paginación y sitio web",
+    "category": "metadata",
+    "keywords": [],
+    "pages": [
+      6,
+      7
+    ],
+    "source_block_ids": [
+      "B34",
+      "B35"
+    ],
+    "text": "6   www.rfef.es\n7"
+  },
+  {
+    "id": "S000014",
+    "start_id": "U0000036",
+    "end_id": "U0000036",
+    "title": "Balón obligatorio para fútbol 7",
+    "category": "content",
+    "keywords": [
+      "balón número 4",
+      "fútbol 7"
+    ],
+    "pages": [
+      7
+    ],
+    "source_block_ids": [
+      "B36"
+    ],
+    "text": "De acuerdo con las descripciones técnicas que anteceden, dicho balón corresponde, precisamente, al número 4 de fútbol, siendo de uso obligatorio para esta modalidad."
+  },
+  {
+    "id": "S000015",
+    "start_id": "U0000037",
+    "end_id": "U0000040",
+    "title": "Regla II: Reemplazo de un balón defectuoso",
+    "category": "content",
+    "keywords": [
+      "balón defectuoso",
+      "autorización del árbitro",
+      "balón a tierra",
+      "reanudación del juego"
+    ],
+    "pages": [
+      7
+    ],
+    "source_block_ids": [
+      "B37",
+      "B38",
+      "B39",
+      "B40"
+    ],
+    "text": "2. REEMPLAZO DE UN BALÓN DEFECTUOSO.\nEl balón no podrá ser cambiado o reemplazado durante el partido sin la autorización del árbitro.\n• Si el balón explota o se daña durante un partido:\n- Se interrumpirá el juego\n- El juego se reanudará por medio de un balón a tierra, ejecutándose con el nuevo balón y en el lugar donde se dañó el primero.\n• Si el balón explota o se daña en un momento en que no está en juego (saque inicial, saque de meta, saque de esquina, tiro libre, tiro penal o saque de banda):\n- El partido se reanudará conforme a las reglas."
+  },
+  {
+    "id": "S000016",
+    "start_id": "U0000041",
+    "end_id": "U0000042",
+    "title": "Regla III: Número de jugadores y sustituciones",
+    "category": "content",
+    "keywords": [
+      "siete jugadores",
+      "guardameta",
+      "suplentes",
+      "sustituciones",
+      "alineación indebida"
+    ],
+    "pages": [
+      7
+    ],
+    "source_block_ids": [
+      "B41",
+      "B42"
+    ],
+    "text": "REGLA III\nNÚMERO DE JUGADORES\n1. El partido será jugado por dos equipos compuestos cada uno de ellos por siete jugadores, uno de los cuales actuará como guardameta.\n\n2. Cada equipo podrá iniciar el encuentro con, al menos, cinco jugadores, pudiéndose incorporar posteriormente los restantes.\n\n3. No obstante cuanto antecede, sólo podrán incorporarse jugadores hasta el final del descanso de cada partido, considerándose como tal, la salida del árbitro al terreno de juego para iniciar la segunda parte.\n\n4. Cada equipo podrá presentar, antes de iniciarse el partido, hasta doce licencias de jugadores, como máximo, los cuales figurarán inscritos en el acta del mismo, de manera que los cinco hipotéticos suplentes puedan entrar en cualquier momento al terreno de juego.\n\n5. Una vez comenzado el partido de que se trate, podrán realizarse cuantos cambios o sustituciones se deseen, siempre que se realicen de forma reglamentaria, es decir previa autorización del árbitro o del auxiliar de mesa. Los jugadores sustituidos podrán volver al juego cuantas veces se considere conveniente.\n\n6. Cuando, durante el desarrollo de un encuentro, un equipo, por las circunstancias que fueren, incluidas las expulsiones temporales, quedara con menos de cinco jugadores sobre el terreno de juego, el árbitro dará por concluido dicho partido, haciéndolo constar en el acta del mismo para que el Comité de Competición decida, en su momento, al respecto."
+  },
+  {
+    "id": "S000017",
+    "start_id": "U0000043",
+    "end_id": "U0000044",
+    "title": "Elementos de paginación",
+    "category": "metadata",
+    "keywords": [],
+    "pages": [
+      7,
+      8
+    ],
+    "source_block_ids": [
+      "B43",
+      "B44"
+    ],
+    "text": "Reglas de Juego del Fútbol - 7      7\n7"
+  },
+  {
+    "id": "S000018",
+    "start_id": "U0000045",
+    "end_id": "U0000046",
+    "title": "Cambio de puesto con el guardameta y requisitos de sustitución",
+    "category": "content",
+    "keywords": [
+      "cambio de guardameta",
+      "sustituciones",
+      "línea de medio campo",
+      "acta del partido",
+      "alineación indebida"
+    ],
+    "pages": [
+      8
+    ],
+    "source_block_ids": [
+      "B45",
+      "B46"
+    ],
+    "text": "7. Cualquier jugador podrá cambiar su puesto con el guardameta, siempre que el árbitro haya sido previamente informado y, siempre también, que el cambio sea efectuado durante una detención reglamentaria del juego.\n\n8. Cuando cualquier jugador tenga que ser sustituido o reemplazado, tanto éste como su sustituto deberán observar los siguientes requisitos:\na) Que el árbitro y/o auxiliar de mesa hayan sido informados previamente de tal propuesta de cambio, no pudiendo entrar al terreno de juego el sustituto hasta tanto el sustituido lo haya abandonado y éste, reciba del árbitro o auxiliar de mesa la señal de autorización al respecto.\nb) Que el jugador sustituto acceda al terreno de juego por la “línea de medio campo”, sin que para ello sea requerido o necesario que el juego sea o esté parado, salvo cuando se trate del guardameta que, reglamentariamente, será preceptivo que así se haga.\nc) Todos los jugadores inscritos en el acta del partido, quedarán sometidos, durante todo el partido, a la autoridad y jurisdicción del árbitro, ello con independencia de su participación o no en el juego.\nTodos los jugadores inscritos en el acta del partido deberán actuar en el mismo y por el tiempo que, para cada caso y competición, esté predeterminado en las Normas o Bases Reguladoras de la misma. El incumplimiento del precepto anteriormente indicado será considerado como alineación indebida."
+  },
+  {
+    "id": "S000019",
+    "start_id": "U0000047",
+    "end_id": "U0000049",
+    "title": "Infracciones y sanciones por entrada no autorizada",
+    "category": "content",
+    "keywords": [
+      "entrada sin autorización",
+      "tiro libre indirecto"
+    ],
+    "pages": [
+      8
+    ],
+    "source_block_ids": [
+      "B47",
+      "B48",
+      "B49"
+    ],
+    "text": "INFRACCIONES / SANCIONES.\nSi un jugador entra en el terreno de juego sin la autorización del árbitro o auxiliar de mesa:\n• Se interrumpirá el juego\n• Se concederá un tiro libre indirecto al equipo adversario, que se lanzará desde el lugar donde se encontraba el balón."
+  },
+  {
+    "id": "S000020",
+    "start_id": "U0000050",
+    "end_id": "U0000051",
+    "title": "Jugadores y sustitutos expulsados antes del saque de salida",
+    "category": "content",
+    "keywords": [
+      "jugador expulsado",
+      "sustituto designado",
+      "saque de salida"
+    ],
+    "pages": [
+      8
+    ],
+    "source_block_ids": [
+      "B50",
+      "B51"
+    ],
+    "text": "JUGADORES Y SUSTITUTOS EXPULSADOS\n• Un jugador expulsado antes del saque de salida sólo podrá ser reemplazado por uno de los sustitutos designados.\n• Un sustituto designado, expulsado antes del saque de salida o después del comienzo del partido, no podrá ser sustituido."
+  },
+  {
+    "id": "S000021",
+    "start_id": "U0000052",
+    "end_id": "U0000054",
+    "title": "Regla IV: Equipamiento básico de los jugadores",
+    "category": "content",
+    "keywords": [
+      "equipamiento básico",
+      "camiseta",
+      "calzado",
+      "canilleras",
+      "espinilleras"
+    ],
+    "pages": [
+      8
+    ],
+    "source_block_ids": [
+      "B52",
+      "B53",
+      "B54"
+    ],
+    "text": "REGLA IV\nEQUIPAMIENTO DE LOS JUGADORES\n1. EQUIPAMIENTO BÁSICO.\nEl equipo básico, obligatorio de un jugador, consiste en una camiseta con mangas, pantalón corto, medias y calzado, que será el adecuado a la superficie del terreno de juego. Si se usan pantalones térmicos debajo de los cortos y / o mallas, pantis o leotardos, éstos deberán tener el color principal de los pantalones cortos, asimismo, deberán utilizar canilleras o espinilleras."
+  },
+  {
+    "id": "S000022",
+    "start_id": "U0000055",
+    "end_id": "U0000056",
+    "title": "Elementos de paginación y sitio web",
+    "category": "metadata",
+    "keywords": [],
+    "pages": [
+      8,
+      9
+    ],
+    "source_block_ids": [
+      "B55",
+      "B56"
+    ],
+    "text": "8       www.rfef.es\n7"
+  },
+  {
+    "id": "S000023",
+    "start_id": "U0000057",
+    "end_id": "U0000060",
+    "title": "Seguridad y requisitos del equipamiento de los jugadores",
+    "category": "content",
+    "keywords": [
+      "equipamiento peligroso",
+      "joyas",
+      "lentes correctoras",
+      "guardameta",
+      "espinilleras"
+    ],
+    "pages": [
+      9
+    ],
+    "source_block_ids": [
+      "B57",
+      "B58",
+      "B59",
+      "B60"
+    ],
+    "text": "Por motivos de seguridad, ningún jugador podrá utilizar equipamiento u objeto que sea peligroso para ellos mismos o para los demás jugadores (incluido cualquier tipo de joya).\nSe podrá utilizar lentes correctoras, si bien, previamente, deberá presentarse al árbitro del partido, el oportuno certificado de homologación extendido por la Mutualidad de Futbolistas de la Federación Autonómica correspondiente.\nEl guardameta vestirá colores que lo diferencien de los demás jugadores, del árbitro y de los árbitros asistentes.\nLas canilleras/espinilleras deberán estar cubiertas completamente por las medias y deberán ser de un material apropiado y ofrecer una protección adecuada."
+  },
+  {
+    "id": "S000024",
+    "start_id": "U0000061",
+    "end_id": "U0000064",
+    "title": "Regla IV: Infracciones y sanciones por equipamiento",
+    "category": "content",
+    "keywords": [
+      "equipamiento incorrecto",
+      "reingreso no autorizado",
+      "tiro libre indirecto"
+    ],
+    "pages": [
+      9
+    ],
+    "source_block_ids": [
+      "B61",
+      "B62",
+      "B63",
+      "B64"
+    ],
+    "text": "2. INFRACCIONES / SANCIONES.\nEl árbitro ordenará que abandone el terreno de juego, o permitirá su reemplazo, a cualquier jugador que quebrante esta regla, para que ponga en orden su equipamiento o equipaje o algún elemento que le falte del mismo, en la siguiente ocasión en que el juego esté parado, si a menos que para ese momento, el jugador no lo hubiera corregido.\nCualquier jugador infractor de esta regla, sólo podrá volver al campo de juego después de haberse presentado al árbitro, quien tendrá que cerciorarse personalmente de que el equipo básico de dicho jugador está en orden, con ocasión de una detención del juego.\nSi un jugador que haya sido obligado a abandonar el terreno de juego por infracción a esta Regla reingresa en el terreno de juego sin la autorización del árbitro, provocando una interrupción del juego, será sancionado con un tiro libre indirecto, ejecutado desde el lugar dónde se encontraba el balón en el momento de la interrupción."
+  },
+  {
+    "id": "S000025",
+    "start_id": "U0000065",
+    "end_id": "U0000066",
+    "title": "Regla V: Designación y funciones del árbitro",
+    "category": "content",
+    "keywords": [
+      "árbitro",
+      "aplicación de las reglas",
+      "cronometrador",
+      "suspensión del encuentro"
+    ],
+    "pages": [
+      9
+    ],
+    "source_block_ids": [
+      "B65",
+      "B66"
+    ],
+    "text": "REGLA V\nÁRBITRO\n1. Será reglamentariamente obligatorio la designación de un árbitro para dirigir cada partido. Sus competencias, en el ejercicio de las funciones que le son propias, comenzarán en el momento de su entrada al terreno de juego y finalizarán cuando éste abandone las instalaciones.\n\n2. Además:\na) Aplicará las Reglas.\nb) Se abstendrá de castigar en aquellos casos en que, al hacerlo, pueda beneficiar al equipo infractor.\nc) Tomará nota de la incidencias, ejercerá de cronometrador cuando no actúe el Auxiliar de Mesa, cuidando de que el partido tenga la duración reglamentaria.\nd) Tendrá poder discrecional para detener el juego cuando se cometan infracciones a las reglas y para interrumpir o suspender definitivamente el encuentro cuando lo estime necesario, bien por causa de los elementos, de la intervención de los espectadores o por otros motivos."
+  },
+  {
+    "id": "S000026",
+    "start_id": "U0000067",
+    "end_id": "U0000068",
+    "title": "Elementos de paginación",
+    "category": "metadata",
+    "keywords": [],
+    "pages": [
+      9,
+      10
+    ],
+    "source_block_ids": [
+      "B67",
+      "B68"
+    ],
+    "text": "Reglas de Juego del Fútbol - 7      9\n7"
+  },
+  {
+    "id": "S000027",
+    "start_id": "U0000069",
+    "end_id": "U0000069",
+    "title": "Funciones y facultades del árbitro",
+    "category": "content",
+    "keywords": [
+      "medidas disciplinarias",
+      "lesiones",
+      "equipamiento",
+      "hemorragias",
+      "informe del partido"
+    ],
+    "pages": [
+      10
+    ],
+    "source_block_ids": [
+      "B69"
+    ],
+    "text": "e) Desde el momento en que entre en el terreno de juego, tendrá facultad discrecional para sancionar, según proceda, a todo jugador que observe conducta inconveniente o incorrecta, llegando incluso a expulsarle temporal o definitivamente.\nf) No permitirá que personas no autorizadas entren en el terreno de juego.\ng) Reanudará el juego tras una interrupción.\nh) Decidirá si el balón dispuesto para el partido responde a lo previsto en la Regla II\ni) Interrumpirá el juego si estimara que algún jugador ha sufrido un golpe o lesión que necesitara de la atención de su médico o auxiliares, debiendo dar prioridad, sobre cualquiera otra circunstancia o interés competicional, a la adecuada asistencia del jugador, incluso sobre el mismo terreno de juego, ello, sin menoscabo de cualquiera otra decisión técnica que él considere pertinente adoptar.\nj) Controlará el partido en cooperación con los árbitros asistentes y auxiliar de mesa, si los hubiere, sobre todo en relación con incidentes que no pudiera haber observado.\nk) Se asegurará de que el equipamiento de los jugadores cumpla las exigencias de la Regla IV.\nl) Exigirá que todo jugador que sufra una hemorragia salga del terreno de juego. Dicho jugador sólo podrá reingresar al mismo tras la señal del árbitro, quien se cerciorará de que la herida o circunstancia que la motivaron haya dejado de sangrar o existir.\nm) Castigará la infracción más grave cuando un jugador comete más de una al mismo tiempo.\nn) Tomará medidas disciplinarias contra los jugadores que cometan infracciones merecedoras de expulsión temporal o definitiva. No está obligado a tomar medidas inmediatamente, pero deberá hacerlo a penas se detenga el juego.\no) Tomará medidas contra los oficiales de los equipos que no se comporten de forma correcta y podrá, si lo juzga necesario, expulsarlos del terreno de juego y sus alrededores.\np) Remitirá a las autoridades correspondientes un informe del partido, con datos sobre todas las medidas disciplinarias tomadas contra jugadores u oficiales de los equipos y sobre cualquier otro incidente que haya ocurrido antes, durante y después del partido."
+  },
+  {
+    "id": "S000028",
+    "start_id": "U0000070",
+    "end_id": "U0000072",
+    "title": "Decisiones del árbitro",
+    "category": "content",
+    "keywords": [
+      "decisiones arbitrales",
+      "hechos relacionados con el juego",
+      "reanudación del juego"
+    ],
+    "pages": [
+      10
+    ],
+    "source_block_ids": [
+      "B70",
+      "B71",
+      "B72"
+    ],
+    "text": "DECISIONES DEL ÁRBITRO\nLas decisiones del árbitro sobre hechos relacionados con el juego son definitivas.\nEl árbitro podrá modificar su decisión únicamente si se da cuenta de que es incorrecta o, si lo juzga necesario, conforme a una indicación por parte de un árbitro asistente, siempre que no haya reanudado aún el juego."
+  },
+  {
+    "id": "S000029",
+    "start_id": "U0000073",
+    "end_id": "U0000074",
+    "title": "Elementos de paginación y sitio web",
+    "category": "metadata",
+    "keywords": [],
+    "pages": [
+      10,
+      11
+    ],
+    "source_block_ids": [
+      "B73",
+      "B74"
+    ],
+    "text": "10       www.rfef.es\n7"
+  },
+  {
+    "id": "S000030",
+    "start_id": "U0000075",
+    "end_id": "U0000078",
+    "title": "Regla VI: Funciones de los árbitros asistentes",
+    "category": "content",
+    "keywords": [
+      "árbitros asistentes",
+      "límites del terreno",
+      "saques",
+      "fuera de juego",
+      "sustituciones",
+      "distancia de 6 metros"
+    ],
+    "pages": [
+      11
+    ],
+    "source_block_ids": [
+      "B75",
+      "B76",
+      "B77",
+      "B78"
+    ],
+    "text": "REGLA VI\nÁRBITROS ASISTENTES Y AUXILIAR DE MESA\nSe podrán designar dos árbitros asistentes que tendrán, bajo reserva de lo que decida el árbitro, la misión de indicar:\n• Si el balón ha traspasado en su totalidad los límites del terreno de juego.\n• A qué equipo corresponde efectuar los saques de esquina, de meta o de banda.\n• Cuándo se deberá sancionar a un jugador por estar en posición de fuera de juego.\n• Cuándo se solicita una sustitución.\n• Cuándo ocurre alguna infracción u otro incidente fuera del campo visual del árbitro.\n• Cuándo se cometen infracciones más cerca del asistente que del árbitro (en particular, cuando ocurren en el área de penalti.)\n• Si en los tiros de penalti, el guardameta se adelanta antes de que se golpee el balón y en el caso de que el balón no haya traspasado la línea.\nLos árbitros asistentes ayudarán igualmente, al árbitro a dirigir el juego conforme a las Reglas. En particular, podrán entrar en el terreno de juego para ayudar a controlar que se respete la distancia de 6 metros."
+  },
+  {
+    "id": "S000031",
+    "start_id": "U0000079",
+    "end_id": "U0000080",
+    "title": "Funciones del auxiliar de mesa",
+    "category": "content",
+    "keywords": [
+      "auxiliar de mesa",
+      "cronometrador",
+      "sustituciones",
+      "delegado de campo"
+    ],
+    "pages": [
+      11
+    ],
+    "source_block_ids": [
+      "B79",
+      "B80"
+    ],
+    "text": "1. Son funciones específicas del Auxiliar de Mesa:\na) Ejercer de Delegado de campo, cuando el reglamento de la competición así lo indique.\nb) Ejercer, asimismo, de cronometrador.\nc) Controlar y autorizar las sustituciones de los jugadores que a lo largo del partido puedan producirse y de acuerdo con lo establecido al respecto.\nd) Poner en conocimiento del árbitro las incidencias o incumplimientos que, en relación con el apartado anterior, pudieran producirse.\ne) Dar cuenta al árbitro de las incorrecciones que pudieran llevarse a efecto en los “banquillos” de suplentes y oficiales, y que pudieran tener consecuencias o reflejarse en el terreno de juego.\nf) Actuar como Auxiliar del Árbitro en todas aquellas tareas que le pudieran ser encomendadas o delegadas."
+  },
+  {
+    "id": "S000032",
+    "start_id": "U0000081",
+    "end_id": "U0000082",
+    "title": "Regla VII: Duración del partido",
+    "category": "content",
+    "keywords": [
+      "duración del partido",
+      "tiempos de juego"
+    ],
+    "pages": [
+      11
+    ],
+    "source_block_ids": [
+      "B81",
+      "B82"
+    ],
+    "text": "REGLA VII\nLA DURACIÓN DEL PARTIDO\n1. El partido durará dos tiempos iguales, salvo que por mutuo acuerdo entre el árbitro y los dos equipos participantes, decidan otra cosa."
+  },
+  {
+    "id": "S000033",
+    "start_id": "U0000083",
+    "end_id": "U0000084",
+    "title": "Elementos de paginación",
+    "category": "metadata",
+    "keywords": [],
+    "pages": [
+      11,
+      12
+    ],
+    "source_block_ids": [
+      "B83",
+      "B84"
+    ],
+    "text": "Reglas de Juego del Fútbol - 7     11\n7"
+  },
+  {
+    "id": "S000034",
+    "start_id": "U0000085",
+    "end_id": "U0000086",
+    "title": "Duración por categorías, tiempo añadido y descanso",
+    "category": "content",
+    "keywords": [
+      "categoría alevín",
+      "benjamín",
+      "prebenjamín",
+      "tiempo añadido",
+      "descanso"
+    ],
+    "pages": [
+      12
+    ],
+    "source_block_ids": [
+      "B85",
+      "B86"
+    ],
+    "text": "• Para la categoría alevín, estos períodos de tiempo serán de 30 minutos cada uno.\n• Para la categoría de benjamín y prebenjamín, dichos períodos lo serán de 25 minutos cada uno.\n2. El árbitro deberá añadir a cada período de tiempo arriba indicado, aquél que estime oportuno en razón al que se hubiere perdido a consecuencia de lesiones y asistencia a los jugadores que la precisen, pérdidas de tiempo u otras causas, debiendo comunicarlo a los dos equipos contendientes.\n3. La duración de cada período, en cualquier caso, deberá ser prolongado a fin de permitir la ejecución de un penalti.\n4. Los jugadores tienen el derecho a un descanso en el medio tiempo de cada partido que, en ningún caso, deberá exceder de DIEZ (10) MINUTOS.\n5. Todo acuerdo de alterar los períodos de juego (por ejemplo, reducir cada mitad debido a que la luz sea insuficiente) deberá tomarse antes del inicio del partido y conforme al reglamento de la competición."
+  },
+  {
+    "id": "S000035",
+    "start_id": "U0000087",
+    "end_id": "U0000094",
+    "title": "Regla VIII: Inicio y reanudación del juego; saque de salida",
+    "category": "content",
+    "keywords": [
+      "sorteo",
+      "saque de salida",
+      "inicio del partido",
+      "gol directo"
+    ],
+    "pages": [
+      12
+    ],
+    "source_block_ids": [
+      "B87",
+      "B88",
+      "B89",
+      "B90",
+      "B91",
+      "B92",
+      "B93",
+      "B94"
+    ],
+    "text": "REGLA VIII\nEL INICIO Y LA REANUDACIÓN DEL JUEGO\nINTRODUCCIÓN\nSe hará un sorteo y el equipo que lo gane decidirá la dirección en la que atacará el primer tiempo del partido.\nEl otro equipo efectuará el saque de salida para iniciar el partido.\nEl equipo que gane el sorteo ejecutará el saque de salida para iniciar el segundo tiempo.\nEn el segundo tiempo del partido, los equipos cambiaran de mitad de campo y atacarán en la dirección opuesta.\n1. SAQUE DE SALIDA. El saque de salida es una forma de iniciar o reanudar el juego:\na) Al comienzo del partido\nb) Tras haber marcado un gol\nc) Al comienzo del segundo tiempo del partido.\nd) Al comienzo de cada tiempo suplementario si lo hubiere.\nSe podrá anotar un gol directamente de un saque de salida."
+  },
+  {
+    "id": "S000036",
+    "start_id": "U0000095",
+    "end_id": "U0000096",
+    "title": "Procedimiento del saque de salida: posición de los jugadores",
+    "category": "content",
+    "keywords": [
+      "saque de salida",
+      "campo propio"
+    ],
+    "pages": [
+      12
+    ],
+    "source_block_ids": [
+      "B95",
+      "B96"
+    ],
+    "text": "PROCEDIMIENTO\n1. Todos los jugadores deberán encontrarse en su propio campo."
+  },
+  {
+    "id": "S000037",
+    "start_id": "U0000097",
+    "end_id": "U0000098",
+    "title": "Elementos de paginación y sitio web",
+    "category": "metadata",
+    "keywords": [],
+    "pages": [
+      12,
+      13
+    ],
+    "source_block_ids": [
+      "B97",
+      "B98"
+    ],
+    "text": "12        www.rfef.es\n7"
+  },
+  {
+    "id": "S000038",
+    "start_id": "U0000099",
+    "end_id": "U0000099",
+    "title": "Procedimiento del saque de salida: distancia, balón y ejecutor",
+    "category": "content",
+    "keywords": [
+      "saque de salida",
+      "distancia de 6 metros",
+      "balón en juego"
+    ],
+    "pages": [
+      13
+    ],
+    "source_block_ids": [
+      "B99"
+    ],
+    "text": "2. Los jugadores del equipo contrario a aquel que efectuará el saque de salida deberán encontrarse, como mínimo, a 6 metros del balón, hasta que sea jugado.\n3. El balón se hallará inmóvil en el punto central.\n4. El balón entrará en juego, una vez que el árbitro dé la señal al efecto, en el momento en que sea jugado con el pie y se mueva hacia delante.\n5. El ejecutor del saque no podrá tocar el balón por segunda vez, antes de que éste sea jugado por otro jugador diferente.\n6. Después de que un equipo marque un gol, el equipo contrario efectuará el saque de salida."
+  },
+  {
+    "id": "S000039",
+    "start_id": "U0000100",
+    "end_id": "U0000102",
+    "title": "Infracciones y sanciones en el saque de salida",
+    "category": "content",
+    "keywords": [
+      "doble toque",
+      "tiro libre indirecto",
+      "repetición del saque"
+    ],
+    "pages": [
+      13
+    ],
+    "source_block_ids": [
+      "B100",
+      "B101",
+      "B102"
+    ],
+    "text": "INFRACCIONES / SANCIONES.\nEn el caso de que el ejecutor del saque toque el balón por segunda vez, antes de que sea jugado por otro jugador:\nSe le concederá un tiro libre indirecto al equipo adversario, que se lanzará desde el lugar donde se cometió la infracción.\nPara cualquier otra contravención del procedimiento de saque de salida:\n• Se repetirá el saque de salida"
+  },
+  {
+    "id": "S000040",
+    "start_id": "U0000103",
+    "end_id": "U0000106",
+    "title": "Balón a tierra: procedimiento de reanudación",
+    "category": "content",
+    "keywords": [
+      "balón a tierra",
+      "interrupción temporal",
+      "reanudación del juego"
+    ],
+    "pages": [
+      13
+    ],
+    "source_block_ids": [
+      "B103",
+      "B104",
+      "B105",
+      "B106"
+    ],
+    "text": "2. BALÓN A TIERRA.\nEL balón a tierra es una forma de reanudar el juego después de una interrupción temporal necesaria, cuando éste está en juego, y a causa de cualquier incidente no recogido en las Reglas de Juego.\nPROCEDIMIENTO\n1. El árbitro dejará caer el balón en el lugar donde se hallaba cuando fue interrumpido el juego, considerándose reanudado en cuanto aquél toque el suelo.\n2. Se volverá a dejar caer nuevamente el balón, anulando la ejecución:\n• Si es tocado por un jugador antes de tocar el suelo.\n• Si el balón sale del terreno de juego después de tocar el suelo, sin haber sido tocado por un jugador."
+  },
+  {
+    "id": "S000041",
+    "start_id": "U0000107",
+    "end_id": "U0000108",
+    "title": "Circunstancias especiales en la reanudación del juego",
+    "category": "content",
+    "keywords": [
+      "tiro libre",
+      "área de meta",
+      "balón a tierra"
+    ],
+    "pages": [
+      13
+    ],
+    "source_block_ids": [
+      "B107",
+      "B108"
+    ],
+    "text": "CIRCUNSTANCIAS ESPECIALES:\n1. Un tiro libre, concedido al equipo defensor en su área de meta, podrá ser lanzado desde cualquier parte de dicha área.\n2. Un tiro libre indirecto, concedido al equipo atacante en el área de meta adversaria, será lanzado desde la línea del área de meta paralela a la línea de meta, en el punto más cercano al lugar dónde ocurrió la infracción.\n3. Un balón a tierra para reanudar el partido, después de que el juego haya sido interrumpido temporalmente dentro del área de meta, será ejecutado en la línea del área de meta paralela a la línea de meta, en el punto más cercano al lugar dónde se encontraba el balón cuando se detuvo el juego."
+  },
+  {
+    "id": "S000042",
+    "start_id": "U0000109",
+    "end_id": "U0000110",
+    "title": "Elementos de paginación",
+    "category": "metadata",
+    "keywords": [],
+    "pages": [
+      13,
+      14
+    ],
+    "source_block_ids": [
+      "B109",
+      "B110"
+    ],
+    "text": "Reglas de Juego del Fútbol - 7   13\n7"
+  },
+  {
+    "id": "S000043",
+    "start_id": "U0000111",
+    "end_id": "U0000113",
+    "title": "Regla IX: Balón en juego o fuera del juego",
+    "category": "content",
+    "keywords": [
+      "balón en juego",
+      "balón fuera del juego",
+      "líneas de banda",
+      "líneas de meta"
+    ],
+    "pages": [
+      14
+    ],
+    "source_block_ids": [
+      "B111",
+      "B112",
+      "B113"
+    ],
+    "text": "REGLA IX\nEL BALÓN EN JUEGO O FUERA DEL JUEGO\n1. BALÓN EN JUEGO: El balón estará en juego en todo otro momento, incluso cuando:\na) Rebota de los postes, travesaño o poste de esquina y permanece en el terreno de juego.\nb) Rebota del árbitro o árbitro asistente ubicado en el interior del terreno de juego.\n2. BALÓN FUERA DEL JUEGO: El balón estará fuera del juego cuando:\na) Ha traspasado completamente una línea de banda o de meta, ya sea por tierra o por aire.\nb) El juego ha sido detenido por el árbitro."
+  },
+  {
+    "id": "S000044",
+    "start_id": "U0000114",
+    "end_id": "U0000115",
+    "title": "Regla X: El gol marcado y resultado del partido",
+    "category": "content",
+    "keywords": [
+      "gol",
+      "empate",
+      "tiempo suplementario",
+      "tiros desde el punto de penal"
+    ],
+    "pages": [
+      14
+    ],
+    "source_block_ids": [
+      "B114",
+      "B115"
+    ],
+    "text": "REGLA X\nEL GOL MARCADO\n1. Se habrá marcado un gol cuando el balón haya traspasado totalmente la línea de meta entre los postes y por debajo del travesaño, siempre que el equipo anotador no haya contravenido previamente las Reglas de Juego.\n2. El equipo que haya marcado el mayor número de goles ganará el partido.\nSi no hubiese marcado ningún gol o si ambos equipos marcaron los mismos goles, el partido terminará en empate.\n3. Si el reglamento de la competición establece que debe de haber un equipo ganador en un partido que finaliza en empate, se permiten solamente los siguientes procedimientos aprobados por la I. Board:\na) Regla de goles marcados fuera de casa\nb) Tiempo suplementario\nc) Tiros desde el punto de penal"
+  },
+  {
+    "id": "S000045",
+    "start_id": "U0000116",
+    "end_id": "U0000117",
+    "title": "Regla XI: Posición de fuera de juego",
+    "category": "content",
+    "keywords": [
+      "fuera de juego",
+      "zona de fuera de juego",
+      "penúltimo adversario"
+    ],
+    "pages": [
+      14
+    ],
+    "source_block_ids": [
+      "B116",
+      "B117"
+    ],
+    "text": "REGLA XI\nEL FUERA DE JUEGO\n1. POSICIÓN DE FUERA DE JUEGO: El hecho de estar en una posición de fuera de juego, no constituye una infracción en sí.\n2. Un jugador estará en posición de fuera de juego, si estando en la zona de fuera de juego:\n• Se encuentra más cerca de la línea de meta contraria que el balón y el penúltimo adversario."
+  },
+  {
+    "id": "S000046",
+    "start_id": "U0000118",
+    "end_id": "U0000119",
+    "title": "Elementos de paginación y sitio web",
+    "category": "metadata",
+    "keywords": [],
+    "pages": [
+      14,
+      15
+    ],
+    "source_block_ids": [
+      "B118",
+      "B119"
+    ],
+    "text": "14       www.rfef.es\n7"
+  },
+  {
+    "id": "S000047",
+    "start_id": "U0000120",
+    "end_id": "U0000122",
+    "title": "Regla XI: Infracciones y sanciones por fuera de juego",
+    "category": "content",
+    "keywords": [
+      "infracción de fuera de juego",
+      "tiro libre indirecto",
+      "saque de esquina",
+      "saque de banda",
+      "saque de meta"
+    ],
+    "pages": [
+      15
+    ],
+    "source_block_ids": [
+      "B120",
+      "B121",
+      "B122"
+    ],
+    "text": "3. Un jugador no estará en posición de fuera de juego si:\na) Se encuentra fuera de la zona de fuera de juego.\nb) Está a la misma altura que el penúltimo adversario o\nc) Está a la misma altura que los dos últimos adversarios.\n4. Un jugador en posición de fuera de juego será sancionado solamente si, en el momento en que el balón toca o es jugado por uno de sus compañeros, se encuentra, a juicio del árbitro:\na) Interfiriendo el juego o\nb) Interfiriendo a un contrario o\nc) Tratando de ganar ventaja de dicha posición.\n5. No existirá infracción de fuera de juego si el jugador recibe el balón directamente de:\na) Un saque de esquina\nb) Un saque de banda o\nc) Un saque de meta\nINFRACCIONES / SANCIONES.\nPor cualquier infracción de fuera de juego, el árbitro deberá otorgar un tiro libre indirecto al equipo adversario, que será lanzado desde el lugar donde se produjo, salvo que fuera en el área de meta, en cuyo caso se ejecutará como se contempla en la Regla VIII en el capítulo de Circunstancias Especiales."
+  },
+  {
+    "id": "S000048",
+    "start_id": "U0000123",
+    "end_id": "U0000124",
+    "title": "Regla XII: Faltas que dan lugar a tiro libre directo",
+    "category": "content",
+    "keywords": [
+      "tiro libre directo",
+      "juego imprudente",
+      "fuerza excesiva",
+      "faltas"
+    ],
+    "pages": [
+      15
+    ],
+    "source_block_ids": [
+      "B123",
+      "B124"
+    ],
+    "text": "REGLA XII\nFALTAS E INCORRECCCIONES\n1. Se concederá un tiro libre directo al equipo adversario si un jugador comete una de las siguientes infracciones de una manera que el árbitro considere imprudente, temeraria o con el uso de una fuerza excesiva:\na) Dar o intentar dar una patada a un adversario.\nb) Poner una zancadilla a un contrario.\nc) Saltar sobre un adversario.\nd) Cargar violentamente o peligrosamente a un adversario\ne) Golpear o intentar golpear a un adversario\nf) Empujar a un adversario\ng) Hacer una entrada a un adversario para ganar la posesión del balón tocándole antes que al balón\nh) Tocar el balón deliberadamente con las manos (salvo el portero en su área de penalti)"
+  },
+  {
+    "id": "S000049",
+    "start_id": "U0000125",
+    "end_id": "U0000126",
+    "title": "Elementos de paginación",
+    "category": "metadata",
+    "keywords": [],
+    "pages": [
+      15,
+      16
+    ],
+    "source_block_ids": [
+      "B125",
+      "B126"
+    ],
+    "text": "Reglas de Juego del Fútbol - 7    15\n7"
+  },
+  {
+    "id": "S000050",
+    "start_id": "U0000127",
+    "end_id": "U0000128",
+    "title": "Faltas y lanzamiento de penalti",
+    "category": "content",
+    "keywords": [
+      "sujetar a un contrario",
+      "escupir",
+      "penalti",
+      "área de penalti"
+    ],
+    "pages": [
+      16
+    ],
+    "source_block_ids": [
+      "B127",
+      "B128"
+    ],
+    "text": "i) Sujetar a un contrario\nj) Escupir a un adversario\n2. Se concederá un lanzamiento de penalti (Regla nº 14), si un jugador comete una de las diez infracciones antes mencionadas, dentro de su propia área de penalti, independientemente de la posición del balón y siempre que esté en juego."
+  },
+  {
+    "id": "S000051",
+    "start_id": "U0000129",
+    "end_id": "U0000130",
+    "title": "Infracciones del guardameta sancionadas con tiro libre indirecto",
+    "category": "content",
+    "keywords": [
+      "guardameta",
+      "seis segundos",
+      "cesión con el pie",
+      "saque de banda"
+    ],
+    "pages": [
+      16
+    ],
+    "source_block_ids": [
+      "B129",
+      "B130"
+    ],
+    "text": "3. Se concederá un tiro libre indirecto al equipo adversario, si un guardameta comete una de las siguientes infracciones antes mencionadas, dentro de su propia área de penalti:\na) Tarda más de seis segundos en poner el balón en juego, después de haberlo controlado con sus manos.\nb) Vuelve a tocar el balón con las manos después de haberlo puesto en juego y sin que cualquier otro jugador lo haya tocado.\nc) Toca el balón con las manos después de que el jugador de su equipo se lo haya cedido con el pie.\nd) Toca el balón con las manos después de haberlo recibido directamente de un saque de banda lanzado por un compañero."
+  },
+  {
+    "id": "S000052",
+    "start_id": "U0000131",
+    "end_id": "U0000133",
+    "title": "Infracciones sancionadas con tiro libre indirecto",
+    "category": "content",
+    "keywords": [
+      "juego peligroso",
+      "obstaculizar",
+      "tiro libre indirecto"
+    ],
+    "pages": [
+      16
+    ],
+    "source_block_ids": [
+      "B131",
+      "B132",
+      "B133"
+    ],
+    "text": "4. Se concederá un tiro libre indirecto al equipo adversario, si un jugador en opinión del árbitro:\na) Juega de forma peligrosa.\nb) Obstaculiza el avance de un adversario.\nc) Impide que el guardameta pueda sacar el balón con las manos.\nd) Comete cualquier otra infracción que no haya sido anteriormente mencionada en las Reglas, por la cual el juego sea interrumpido para amonestarle o expulsarle.\n5. El tiro libre directo o indirecto, se lanzará desde el lugar donde se cometió la infracción, o en cualquier caso, atendiendo a las normas y reglas de juego al respecto."
+  },
+  {
+    "id": "S000053",
+    "start_id": "U0000134",
+    "end_id": "U0000136",
+    "title": "Regla XII: Expulsión temporal por infracciones y motivos",
+    "category": "content",
+    "keywords": [
+      "Regla XII",
+      "expulsión temporal",
+      "dos minutos",
+      "infracciones persistentes",
+      "conducta antideportiva"
+    ],
+    "pages": [
+      16
+    ],
+    "source_block_ids": [
+      "B134",
+      "B135",
+      "B136"
+    ],
+    "text": "INFRACCIONES / SANCIONES\nSerá expulsado temporalmente del terreno de juego, por dos minutos, no pudiendo ser reemplazado, el jugador que:\na) Infrinja persistentemente las reglas de juego.\nb) Desapruebe con gestos o palabras las decisiones arbitrales.\nc) Juegue el balón con las manos, evitando una clara ocasión de gol.\nd) Impida el normal desarrollo del juego, interrumpiéndolo, agarrando o zancadilleando a un contrario, sin incurrir en agresión y evitando una clara ocasión de gol.\ne) Actúe de cualquier otra forma antideportiva, no contemplada en el párrafo anterior."
+  }
+]

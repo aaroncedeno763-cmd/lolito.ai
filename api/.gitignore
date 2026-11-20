@@ -1,3 +1,6 @@
 .env
 /node_modules
 package-lock.json
+/src/scripts/imports/input
+/src/scripts/imports/output
+/chroma-data
