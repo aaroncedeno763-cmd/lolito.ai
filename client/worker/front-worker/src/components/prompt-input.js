@@ -111,6 +111,26 @@ class PromptInput extends HTMLElement {
 
       boton.disabled = true
       chat.classList.add('chat-activo')
+
+      if (mensajes.childElementCount === 0) {
+        const historial = document.querySelector('historial-component')
+
+        fetch(`${import.meta.env.VITE_API_URL}/api/worker/conversations/title`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ userQuery })
+        })
+          .then(result => {
+            if (!result.ok) throw new Error(`HTTP ${result.status}`)
+            return result.json()
+          })
+          .then(({ titulo }) => historial.agregarTitulo(titulo))
+          .catch(error => {
+            console.error('Error al generar el título:', error)
+            historial?.agregarTitulo?.('Nueva conversación')
+          })
+      }
+
       agregarMensaje('usuario', userQuery)
       form.reset()
 

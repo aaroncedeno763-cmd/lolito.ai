@@ -2,7 +2,7 @@ const OpenAI = require('openai')
 const { toFile } = require('openai/uploads')
 
 module.exports = class OpenAIService {
-  constructor () {
+  constructor() {
     this.openai = new OpenAI({
       ...(process.env.LLM_PROVIDER && { baseURL: process.env.LLM_PROVIDER }),
       apiKey: process.env.OPENAI_API_KEY
@@ -10,13 +10,17 @@ module.exports = class OpenAIService {
     this.resetConversation()
   }
 
-  resetConversation () {
+  resetConversation() {
     this.responseId = null
     this.answer = null
     this.tools = []
   }
 
-  async createResponse ({input, model, options = {}}) {
+  setResponseId(responseId) {
+    this.responseId = responseId
+  }
+
+  async createResponse({ input, model, options = {} }) {
     this.answer = null
     this.tools = []
 
@@ -40,7 +44,7 @@ module.exports = class OpenAIService {
     return response
   }
 
-  submitToolOutputs (toolOutputs, model, options = {}) {
+  submitToolOutputs(toolOutputs, model, options = {}) {
     if (!this.responseId) {
       throw new Error('No hay una respuesta previa para enviar resultados de herramientas')
     }
@@ -48,7 +52,7 @@ module.exports = class OpenAIService {
     return this.createResponse(toolOutputs.map(output => ({ ...output, type: 'function_call_output' })), model, options)
   }
 
-  async generateEmbedding({text, model = 'text-embedding-3-large' }) {
+  async generateEmbedding({ text, model = 'text-embedding-3-large' }) {
     const response = await this.openai.embeddings.create({
       model,
       input: text,
@@ -58,17 +62,17 @@ module.exports = class OpenAIService {
     return response.data[0].embedding;
   }
 
-  async transcribeAudio (fileStream, languages = ['es'], filename = 'audio.ogg') {
+  async transcribeAudio(fileStream, languages = ['es'], filename = 'audio.ogg') {
     const file = await toFile(fileStream, filename)
 
     return this.openai.audio.transcriptions.create({
       file,
       model: 'gpt-transcribe',
-      languages 
+      languages
     })
   }
 
-  analyzeImageUrl (imageUrls, model, text = '¿Qué ves en la imagen? Se detallado', options = {}) {
+  analyzeImageUrl(imageUrls, model, text = '¿Qué ves en la imagen? Se detallado', options = {}) {
     return this.createResponse({
       model,
       options,
@@ -82,7 +86,7 @@ module.exports = class OpenAIService {
     })
   }
 
-  analyzeImageBuffer (images, model, text = '¿Qué ves en la imagen? Se detallado', options = {}) {
+  analyzeImageBuffer(images, model, text = '¿Qué ves en la imagen? Se detallado', options = {}) {
     const imageUrls = images.map(image => `data:${image.mimetype};base64,${image.buffer.toString('base64')}`)
     return this.analyzeImageUrl(imageUrls, model, text, options)
   }

@@ -19,244 +19,267 @@ DEL FÚTBOL•7
 sumario
 
 [U0000007 | página 3]
-REGLA I     | El Terreno de Juego                        | 5
-REGLA II    | El Balón                                   | 6
-REGLA III   | Número de Jugadores                        | 7
-REGLA IV    | Equipamiento de los Jugadores              | 8
-REGLA V     | Árbitro                                    | 9
-REGLA VI    | Árbitros, Asistentes y Auxiliar de mesa    | 11
-REGLA VII   | La duración del Partido                    | 11
-REGLA VIII  | El inicio y la reanudación del Juego       | 12
-REGLA IX    | El Balón en Juego o fuera de Juego         | 14
-REGLA X     | El Gol marcado                             | 14
-REGLA XI    | El Fuera de Juego                          | 14
-REGLA XII   | Faltas e incorrecciones                    | 15
-REGLA XIII  | El Tiro Libre                              | 18
-REGLA XIV   | Del Penalty y su lanzamiento               | 20
-REGLA XV    | El Saque de Banda                          | 22
-REGLA XVI   | El Saque de Meta                           | 23
-REGLA XVII  | El Saque de Esquina                        | 25
+REGLA I | El Terreno de Juego | 5
+REGLA II | El Balón | 6
+REGLA III | Número de Jugadores | 7
+REGLA IV | Equipamiento de los Jugadores | 8
+REGLA V | Árbitro | 9
+REGLA VI | Árbitros, Asistentes y Auxiliar de mesa | 11
+REGLA VII | La duración del Partido | 11
+REGLA VIII | El inicio y la reanudación del Juego | 12
+REGLA IX | El Balón en Juego o fuera de Juego | 14
+REGLA X | El Gol marcado | 14
+REGLA XI | El Fuera de Juego | 14
+REGLA XII | Faltas e incorrecciones | 15
+REGLA XIII | El Tiro Libre | 18
+REGLA XIV | Del Penalty y su lanzamiento | 20
+REGLA XV | El Saque de Banda | 22
+REGLA XVI | El Saque de Meta | 23
+REGLA XVII | El Saque de Esquina | 25
 
 [U0000008 | página 3]
 2008
 
 [U0000009 | página 4]
-9; 3; Línea de meta; 3; 0,6; 9; 12; Mínimo 50; Máximo 65; Línea de banda; Línea de medio campo; 6; Círculo; 6; Punto de Penalty; Área de Penalty; Área de meta; Máximo 45; Mínimo 30. 4 | RFEF www.rfef.es
+Diagrama del terreno de juego. Etiquetas y medidas: 9; 3; Línea de meta; 3; 0,6; 9; 12; Mínimo 50; Máximo 65; Línea de medio campo; Círculo; 6; Línea de banda; Punto de Penalty; Área de Penalty; Área de meta; Máximo 45; Mínimo 30.
 
-[U0000010 | página 5]
+[U0000010 | página 4]
+4 | RFEF www.rfef.es
+
+[U0000011 | página 5]
 7
 REGLAS DE JUEGO
 DEL FÚTBOL•7
 
-[U0000011 | página 5]
+[U0000012 | página 5]
 REGLA I
 EL TERRENO DE JUEGO
 
-[U0000012 | página 5]
+[U0000013 | página 5]
 El terreno de juego y sus características se determinan con arreglo al plano de la página anterior.
 
-[U0000013 | página 5]
+[U0000014 | página 5]
 1. SUPERFICIE DE JUEGO. Podrá ser de tierra, hierba natural o artificial.
 
-[U0000014 | página 5]
+[U0000015 | página 5]
 2. DIMENSIONES. El campo de juego será un rectángulo de una longitud máxima de 65 metros y mínima de 50 metros, y de una anchura no mayor de 45 metros ni menor de 30.
 
-[U0000015 | página 5]
+[U0000016 | página 5]
 3. MARCACIÓN DEL TERRENO. El terreno de juego se marcará con líneas. Dichas líneas pertenecerán a las zonas que demarcan. Las dos líneas de marcación más larga se denominan líneas de banda. Las dos más cortas se llaman líneas de meta. El terreno de juego estará dividido en dos mitades por una línea media. El centro del campo estará marcado con un punto en la mitad de la línea media, alrededor de la cual se trazará un círculo con un radio de 6 metros. Todas las líneas tendrán una anchura de 12 centímetros, como máximo.
 
-[U0000016 | página 5]
+[U0000017 | página 5]
 En cada esquina del campo se colocará una banderola cuya asta, que no será puntiaguda, tendrá una altura de 1.50 metros, como mínimo.
 
-[U0000017 | página 5]
+[U0000018 | página 5]
 4. ÁREA DE META. El área de meta, situada en ambos extremos del terreno de juego, se determinará de la siguiente manera:
 
-[U0000018 | página 5]
+[U0000019 | página 5]
 • Se trazarán dos líneas perpendiculares a la línea de meta, a 3 metros de la parte interior de cada poste de meta. Dichas líneas se adentrarán 3 metros en el terreno de juego y se unirán con una línea paralela a la línea de meta. El área delimitada por dichas líneas y la línea de meta será el área de meta.
 
-[U0000019 | página 5]
+[U0000020 | página 5]
 5. ÁREA DE PENALTI. El área de penalti, situada en ambos extremos del terreno de juego, se determinará de la siguiente manera:
 
-[U0000020 | página 5]
+[U0000021 | página 5]
 1. Se trazarán dos líneas perpendiculares a la línea de meta, a 9 metros de la parte interior de cada poste de meta. Dichas líneas se adentrarán 9 metros en el terreno de juego y se unirán con una línea paralela a la línea de meta. El área delimitada por dichas líneas y la línea de meta, será el área de penalti.
 
-[U0000021 | página 5]
+[U0000022 | página 5]
 Reglas de Juego del Fútbol - 7   5
 
-[U0000022 | página 6]
-7
+[U0000023 | página 6]
 2. En cada área de penalti se marcará un punto (punto de penalti) a 9 metros de distancia del punto medio de la línea entre los postes y equidistantes entre éstos. Al exterior de cada área de penalti se trazará un semicírculo con un radio de 6 metros desde el punto de penalti.
 
-[U0000023 | página 6]
+[U0000024 | página 6]
 6. ZONA DE FUERA DE JUEGO. La zona de fuera de juego situada en ambos extremos del terreno de juego, se delimitará de la siguiente manera:
 
-[U0000024 | página 6]
+[U0000025 | página 6]
 • Se trazará una línea paralela a la línea de meta adentrándose 12 metros en el terreno de juego y que unirá las dos líneas de banda.
 La superficie comprendida entre esta línea y la línea de meta se llamará zona de fuera de juego.
 
-[U0000025 | página 6]
+[U0000026 | página 6]
 7. ÁREA DE ESQUINA. Con un radio de 0.6 metros, medido desde cada banderola de esquina, se marcarán cuatro arcos de circunferencia en la parte interior del terreno.
 
-[U0000026 | página 6]
+[U0000027 | página 6]
 8. LOS MARCOS.
 
-[U0000027 | página 6]
+[U0000028 | página 6]
 1. En el centro de cada línea de meta se colocarán los marcos, que estarán formados por dos postes verticales, equidistantes de las banderolas de esquina, separados 6 metros entre sí (medida interior) y unidos en sus extremos por un larguero horizontal cuyo borde inferior estará a 2 metros del suelo. La anchura y el grueso de los postes y del larguero transversal no podrán exceder de 12 centímetros. Los postes y el larguero transversal deberán tener el mismo ancho.
 
-[U0000028 | página 6]
+[U0000029 | página 6]
 2. Podrán ponerse redes enganchadas a los postes, al larguero y al suelo por detrás de los marcos, debiendo estar sujetas en forma conveniente y colocadas de manera que no estorben al guardameta.
 Está permitido el uso de redes hechas de cáñamo, yute o nylon. Sin embargo, las cuerdas de nylon no pueden ser más delgadas que aquéllas hechas de cáñamo o yute.
 
-[U0000029 | página 6]
+[U0000030 | página 6]
 3. Los postes y travesaños deberán ser de color blanco, de madera, metal u otro material aprobado y homologado oficialmente. Pueden tener forma cuadrada, rectangular, redonda o elíptica y deberán estar anclados firmemente en el suelo. Se podrán utilizar metas portátiles en caso de que se cumpla esta última condición.
 
-[U0000030 | página 6]
+[U0000031 | página 6]
 REGLA II
 EL BALÓN
 
-[U0000031 | página 6]
+[U0000032 | página 6]
 1. PROPIEDADES Y MEDIDAS. EL balón será esférico, su cubierta será de cuero u otro material homologado al efecto. En su confección, no se empleará ningún material que pueda constituir un peligro para los jugadores.
 
-[U0000032 | página 6]
+[U0000033 | página 6]
 El balón tendrá una circunferencia no superior a 66 centímetros ni inferior a 62 centímetros.
 
-[U0000033 | página 6]
+[U0000034 | página 6]
 El balón, al inicio del partido, tendrá un peso no superior a 390 gramos ni inferior a 340 gramos, y un presión equivalente a 0,4 – 0,6 atmósferas (400 – 600 g/cms) al nivel del mar.
 
-[U0000034 | página 6]
-6   www.rfef.es
-
-[U0000035 | página 7]
-7
+[U0000035 | página 6]
+6 www.rfef.es
 
 [U0000036 | página 7]
-De acuerdo con las descripciones técnicas que anteceden, dicho balón corresponde, precisamente, al número 4 de fútbol, siendo de uso obligatorio para esta modalidad.
+7
 
 [U0000037 | página 7]
-2. REEMPLAZO DE UN BALÓN DEFECTUOSO.
+De acuerdo con las descripciones técnicas que anteceden, dicho balón corresponde, precisamente, al número 4 de fútbol, siendo de uso obligatorio para esta modalidad.
 
 [U0000038 | página 7]
-El balón no podrá ser cambiado o reemplazado durante el partido sin la autorización del árbitro.
+2. REEMPLAZO DE UN BALÓN DEFECTUOSO.
 
 [U0000039 | página 7]
+El balón no podrá ser cambiado o reemplazado durante el partido sin la autorización del árbitro.
+
+[U0000040 | página 7]
 • Si el balón explota o se daña durante un partido:
 - Se interrumpirá el juego
 - El juego se reanudará por medio de un balón a tierra, ejecutándose con el nuevo balón y en el lugar donde se dañó el primero.
 
-[U0000040 | página 7]
+[U0000041 | página 7]
 • Si el balón explota o se daña en un momento en que no está en juego (saque inicial, saque de meta, saque de esquina, tiro libre, tiro penal o saque de banda):
 - El partido se reanudará conforme a las reglas.
 
-[U0000041 | página 7]
+[U0000042 | página 7]
 REGLA III
 NÚMERO DE JUGADORES
 
-[U0000042 | página 7]
+[U0000043 | página 7]
 1. El partido será jugado por dos equipos compuestos cada uno de ellos por siete jugadores, uno de los cuales actuará como guardameta.
 
+[U0000044 | página 7]
 2. Cada equipo podrá iniciar el encuentro con, al menos, cinco jugadores, pudiéndose incorporar posteriormente los restantes.
 
+[U0000045 | página 7]
 3. No obstante cuanto antecede, sólo podrán incorporarse jugadores hasta el final del descanso de cada partido, considerándose como tal, la salida del árbitro al terreno de juego para iniciar la segunda parte.
 
+[U0000046 | página 7]
 4. Cada equipo podrá presentar, antes de iniciarse el partido, hasta doce licencias de jugadores, como máximo, los cuales figurarán inscritos en el acta del mismo, de manera que los cinco hipotéticos suplentes puedan entrar en cualquier momento al terreno de juego.
 
+[U0000047 | página 7]
 5. Una vez comenzado el partido de que se trate, podrán realizarse cuantos cambios o sustituciones se deseen, siempre que se realicen de forma reglamentaria, es decir previa autorización del árbitro o del auxiliar de mesa. Los jugadores sustituidos podrán volver al juego cuantas veces se considere conveniente.
 
+[U0000048 | página 7]
 6. Cuando, durante el desarrollo de un encuentro, un equipo, por las circunstancias que fueren, incluidas las expulsiones temporales, quedara con menos de cinco jugadores sobre el terreno de juego, el árbitro dará por concluido dicho partido, haciéndolo constar en el acta del mismo para que el Comité de Competición decida, en su momento, al respecto.
 
-[U0000043 | página 7]
+[U0000049 | página 7]
 Reglas de Juego del Fútbol - 7      7
 
-[U0000044 | página 8]
+[U0000050 | página 8]
 7
 
-[U0000045 | página 8]
+[U0000051 | página 8]
 7. Cualquier jugador podrá cambiar su puesto con el guardameta, siempre que el árbitro haya sido previamente informado y, siempre también, que el cambio sea efectuado durante una detención reglamentaria del juego.
 
+[U0000052 | página 8]
 8. Cuando cualquier jugador tenga que ser sustituido o reemplazado, tanto éste como su sustituto deberán observar los siguientes requisitos:
+
+[U0000053 | página 8]
 a) Que el árbitro y/o auxiliar de mesa hayan sido informados previamente de tal propuesta de cambio, no pudiendo entrar al terreno de juego el sustituto hasta tanto el sustituido lo haya abandonado y éste, reciba del árbitro o auxiliar de mesa la señal de autorización al respecto.
+
+[U0000054 | página 8]
 b) Que el jugador sustituto acceda al terreno de juego por la “línea de medio campo”, sin que para ello sea requerido o necesario que el juego sea o esté parado, salvo cuando se trate del guardameta que, reglamentariamente, será preceptivo que así se haga.
+
+[U0000055 | página 8]
 c) Todos los jugadores inscritos en el acta del partido, quedarán sometidos, durante todo el partido, a la autoridad y jurisdicción del árbitro, ello con independencia de su participación o no en el juego.
 
-[U0000046 | página 8]
+[U0000056 | página 8]
 Todos los jugadores inscritos en el acta del partido deberán actuar en el mismo y por el tiempo que, para cada caso y competición, esté predeterminado en las Normas o Bases Reguladoras de la misma. El incumplimiento del precepto anteriormente indicado será considerado como alineación indebida.
 
-[U0000047 | página 8]
+[U0000057 | página 8]
 INFRACCIONES / SANCIONES.
 
-[U0000048 | página 8]
+[U0000058 | página 8]
 Si un jugador entra en el terreno de juego sin la autorización del árbitro o auxiliar de mesa:
 
-[U0000049 | página 8]
+[U0000059 | página 8]
 • Se interrumpirá el juego
 • Se concederá un tiro libre indirecto al equipo adversario, que se lanzará desde el lugar donde se encontraba el balón.
 
-[U0000050 | página 8]
+[U0000060 | página 8]
 JUGADORES Y SUSTITUTOS EXPULSADOS
 
-[U0000051 | página 8]
+[U0000061 | página 8]
 • Un jugador expulsado antes del saque de salida sólo podrá ser reemplazado por uno de los sustitutos designados.
 • Un sustituto designado, expulsado antes del saque de salida o después del comienzo del partido, no podrá ser sustituido.
 
-[U0000052 | página 8]
+[U0000062 | página 8]
 REGLA IV
 EQUIPAMIENTO DE LOS JUGADORES
 
-[U0000053 | página 8]
+[U0000063 | página 8]
 1. EQUIPAMIENTO BÁSICO.
 
-[U0000054 | página 8]
+[U0000064 | página 8]
 El equipo básico, obligatorio de un jugador, consiste en una camiseta con mangas, pantalón corto, medias y calzado, que será el adecuado a la superficie del terreno de juego. Si se usan pantalones térmicos debajo de los cortos y / o mallas, pantis o leotardos, éstos deberán tener el color principal de los pantalones cortos, asimismo, deberán utilizar canilleras o espinilleras.
 
-[U0000055 | página 8]
+[U0000065 | página 8]
 8       www.rfef.es
 
-[U0000056 | página 9]
+[U0000066 | página 9]
 7
 
-[U0000057 | página 9]
+[U0000067 | página 9]
 Por motivos de seguridad, ningún jugador podrá utilizar equipamiento u objeto que sea peligroso para ellos mismos o para los demás jugadores (incluido cualquier tipo de joya).
 
-[U0000058 | página 9]
+[U0000068 | página 9]
 Se podrá utilizar lentes correctoras, si bien, previamente, deberá presentarse al árbitro del partido, el oportuno certificado de homologación extendido por la Mutualidad de Futbolistas de la Federación Autonómica correspondiente.
 
-[U0000059 | página 9]
+[U0000069 | página 9]
 El guardameta vestirá colores que lo diferencien de los demás jugadores, del árbitro y de los árbitros asistentes.
 
-[U0000060 | página 9]
+[U0000070 | página 9]
 Las canilleras/espinilleras deberán estar cubiertas completamente por las medias y deberán ser de un material apropiado y ofrecer una protección adecuada.
 
-[U0000061 | página 9]
+[U0000071 | página 9]
 2. INFRACCIONES / SANCIONES.
 
-[U0000062 | página 9]
+[U0000072 | página 9]
 El árbitro ordenará que abandone el terreno de juego, o permitirá su reemplazo, a cualquier jugador que quebrante esta regla, para que ponga en orden su equipamiento o equipaje o algún elemento que le falte del mismo, en la siguiente ocasión en que el juego esté parado, si a menos que para ese momento, el jugador no lo hubiera corregido.
 
-[U0000063 | página 9]
+[U0000073 | página 9]
 Cualquier jugador infractor de esta regla, sólo podrá volver al campo de juego después de haberse presentado al árbitro, quien tendrá que cerciorarse personalmente de que el equipo básico de dicho jugador está en orden, con ocasión de una detención del juego.
 
-[U0000064 | página 9]
+[U0000074 | página 9]
 Si un jugador que haya sido obligado a abandonar el terreno de juego por infracción a esta Regla reingresa en el terreno de juego sin la autorización del árbitro, provocando una interrupción del juego, será sancionado con un tiro libre indirecto, ejecutado desde el lugar dónde se encontraba el balón en el momento de la interrupción.
 
-[U0000065 | página 9]
+[U0000075 | página 9]
 REGLA V
 ÁRBITRO
 
-[U0000066 | página 9]
+[U0000076 | página 9]
 1. Será reglamentariamente obligatorio la designación de un árbitro para dirigir cada partido. Sus competencias, en el ejercicio de las funciones que le son propias, comenzarán en el momento de su entrada al terreno de juego y finalizarán cuando éste abandone las instalaciones.
 
+[U0000077 | página 9]
 2. Además:
+
+[U0000078 | página 9]
 a) Aplicará las Reglas.
+
+[U0000079 | página 9]
 b) Se abstendrá de castigar en aquellos casos en que, al hacerlo, pueda beneficiar al equipo infractor.
+
+[U0000080 | página 9]
 c) Tomará nota de la incidencias, ejercerá de cronometrador cuando no actúe el Auxiliar de Mesa, cuidando de que el partido tenga la duración reglamentaria.
+
+[U0000081 | página 9]
 d) Tendrá poder discrecional para detener el juego cuando se cometan infracciones a las reglas y para interrumpir o suspender definitivamente el encuentro cuando lo estime necesario, bien por causa de los elementos, de la intervención de los espectadores o por otros motivos.
 
-[U0000067 | página 9]
+[U0000082 | página 9]
 Reglas de Juego del Fútbol - 7      9
 
-[U0000068 | página 10]
+[U0000083 | página 10]
 7
 
-[U0000069 | página 10]
+[U0000084 | página 10]
 e) Desde el momento en que entre en el terreno de juego, tendrá facultad discrecional para sancionar, según proceda, a todo jugador que observe conducta inconveniente o incorrecta, llegando incluso a expulsarle temporal o definitivamente.
 f) No permitirá que personas no autorizadas entren en el terreno de juego.
 g) Reanudará el juego tras una interrupción.
@@ -270,29 +293,29 @@ n) Tomará medidas disciplinarias contra los jugadores que cometan infracciones 
 o) Tomará medidas contra los oficiales de los equipos que no se comporten de forma correcta y podrá, si lo juzga necesario, expulsarlos del terreno de juego y sus alrededores.
 p) Remitirá a las autoridades correspondientes un informe del partido, con datos sobre todas las medidas disciplinarias tomadas contra jugadores u oficiales de los equipos y sobre cualquier otro incidente que haya ocurrido antes, durante y después del partido.
 
-[U0000070 | página 10]
+[U0000085 | página 10]
 DECISIONES DEL ÁRBITRO
 
-[U0000071 | página 10]
+[U0000086 | página 10]
 Las decisiones del árbitro sobre hechos relacionados con el juego son definitivas.
 
-[U0000072 | página 10]
+[U0000087 | página 10]
 El árbitro podrá modificar su decisión únicamente si se da cuenta de que es incorrecta o, si lo juzga necesario, conforme a una indicación por parte de un árbitro asistente, siempre que no haya reanudado aún el juego.
 
-[U0000073 | página 10]
+[U0000088 | página 10]
 10       www.rfef.es
 
-[U0000074 | página 11]
+[U0000089 | página 11]
 7
 
-[U0000075 | página 11]
+[U0000090 | página 11]
 REGLA VI
 ÁRBITROS ASISTENTES Y AUXILIAR DE MESA
 
-[U0000076 | página 11]
+[U0000091 | página 11]
 Se podrán designar dos árbitros asistentes que tendrán, bajo reserva de lo que decida el árbitro, la misión de indicar:
 
-[U0000077 | página 11]
+[U0000092 | página 11]
 • Si el balón ha traspasado en su totalidad los límites del terreno de juego.
 • A qué equipo corresponde efectuar los saques de esquina, de meta o de banda.
 • Cuándo se deberá sancionar a un jugador por estar en posición de fuera de juego.
@@ -301,13 +324,11 @@ Se podrán designar dos árbitros asistentes que tendrán, bajo reserva de lo qu
 • Cuándo se cometen infracciones más cerca del asistente que del árbitro (en particular, cuando ocurren en el área de penalti.)
 • Si en los tiros de penalti, el guardameta se adelanta antes de que se golpee el balón y en el caso de que el balón no haya traspasado la línea.
 
-[U0000078 | página 11]
+[U0000093 | página 11]
 Los árbitros asistentes ayudarán igualmente, al árbitro a dirigir el juego conforme a las Reglas. En particular, podrán entrar en el terreno de juego para ayudar a controlar que se respete la distancia de 6 metros.
 
-[U0000079 | página 11]
+[U0000094 | página 11]
 1. Son funciones específicas del Auxiliar de Mesa:
-
-[U0000080 | página 11]
 a) Ejercer de Delegado de campo, cuando el reglamento de la competición así lo indique.
 b) Ejercer, asimismo, de cronometrador.
 c) Controlar y autorizar las sustituciones de los jugadores que a lo largo del partido puedan producirse y de acuerdo con lo establecido al respecto.
@@ -315,136 +336,142 @@ d) Poner en conocimiento del árbitro las incidencias o incumplimientos que, en 
 e) Dar cuenta al árbitro de las incorrecciones que pudieran llevarse a efecto en los “banquillos” de suplentes y oficiales, y que pudieran tener consecuencias o reflejarse en el terreno de juego.
 f) Actuar como Auxiliar del Árbitro en todas aquellas tareas que le pudieran ser encomendadas o delegadas.
 
-[U0000081 | página 11]
+[U0000095 | página 11]
 REGLA VII
 LA DURACIÓN DEL PARTIDO
 
-[U0000082 | página 11]
+[U0000096 | página 11]
 1. El partido durará dos tiempos iguales, salvo que por mutuo acuerdo entre el árbitro y los dos equipos participantes, decidan otra cosa.
 
-[U0000083 | página 11]
+[U0000097 | página 11]
 Reglas de Juego del Fútbol - 7     11
 
-[U0000084 | página 12]
+[U0000098 | página 12]
 7
 
-[U0000085 | página 12]
+[U0000099 | página 12]
 • Para la categoría alevín, estos períodos de tiempo serán de 30 minutos cada uno.
 • Para la categoría de benjamín y prebenjamín, dichos períodos lo serán de 25 minutos cada uno.
 
-[U0000086 | página 12]
+[U0000100 | página 12]
 2. El árbitro deberá añadir a cada período de tiempo arriba indicado, aquél que estime oportuno en razón al que se hubiere perdido a consecuencia de lesiones y asistencia a los jugadores que la precisen, pérdidas de tiempo u otras causas, debiendo comunicarlo a los dos equipos contendientes.
+
 3. La duración de cada período, en cualquier caso, deberá ser prolongado a fin de permitir la ejecución de un penalti.
+
 4. Los jugadores tienen el derecho a un descanso en el medio tiempo de cada partido que, en ningún caso, deberá exceder de DIEZ (10) MINUTOS.
+
 5. Todo acuerdo de alterar los períodos de juego (por ejemplo, reducir cada mitad debido a que la luz sea insuficiente) deberá tomarse antes del inicio del partido y conforme al reglamento de la competición.
 
-[U0000087 | página 12]
+[U0000101 | página 12]
 REGLA VIII
 EL INICIO Y LA REANUDACIÓN DEL JUEGO
 
-[U0000088 | página 12]
+[U0000102 | página 12]
 INTRODUCCIÓN
 
-[U0000089 | página 12]
+[U0000103 | página 12]
 Se hará un sorteo y el equipo que lo gane decidirá la dirección en la que atacará el primer tiempo del partido.
 
-[U0000090 | página 12]
+[U0000104 | página 12]
 El otro equipo efectuará el saque de salida para iniciar el partido.
 
-[U0000091 | página 12]
+[U0000105 | página 12]
 El equipo que gane el sorteo ejecutará el saque de salida para iniciar el segundo tiempo.
 
-[U0000092 | página 12]
+[U0000106 | página 12]
 En el segundo tiempo del partido, los equipos cambiaran de mitad de campo y atacarán en la dirección opuesta.
 
-[U0000093 | página 12]
+[U0000107 | página 12]
 1. SAQUE DE SALIDA. El saque de salida es una forma de iniciar o reanudar el juego:
 
-[U0000094 | página 12]
+[U0000108 | página 12]
 a) Al comienzo del partido
 b) Tras haber marcado un gol
 c) Al comienzo del segundo tiempo del partido.
 d) Al comienzo de cada tiempo suplementario si lo hubiere.
+
+[U0000109 | página 12]
 Se podrá anotar un gol directamente de un saque de salida.
 
-[U0000095 | página 12]
+[U0000110 | página 12]
 PROCEDIMIENTO
 
-[U0000096 | página 12]
+[U0000111 | página 12]
 1. Todos los jugadores deberán encontrarse en su propio campo.
 
-[U0000097 | página 12]
+[U0000112 | página 12]
 12        www.rfef.es
 
-[U0000098 | página 13]
+[U0000113 | página 13]
 7
 
-[U0000099 | página 13]
+[U0000114 | página 13]
 2. Los jugadores del equipo contrario a aquel que efectuará el saque de salida deberán encontrarse, como mínimo, a 6 metros del balón, hasta que sea jugado.
 3. El balón se hallará inmóvil en el punto central.
 4. El balón entrará en juego, una vez que el árbitro dé la señal al efecto, en el momento en que sea jugado con el pie y se mueva hacia delante.
 5. El ejecutor del saque no podrá tocar el balón por segunda vez, antes de que éste sea jugado por otro jugador diferente.
 6. Después de que un equipo marque un gol, el equipo contrario efectuará el saque de salida.
 
-[U0000100 | página 13]
-INFRACCIONES / SANCIONES.
+[U0000115 | página 13]
+INFRACCIONES / SANCIONES. En el caso de que el ejecutor del saque toque el balón por segunda vez, antes de que sea jugado por otro jugador:
 
-[U0000101 | página 13]
-En el caso de que el ejecutor del saque toque el balón por segunda vez, antes de que sea jugado por otro jugador:
+[U0000116 | página 13]
 Se le concederá un tiro libre indirecto al equipo adversario, que se lanzará desde el lugar donde se cometió la infracción.
+
+[U0000117 | página 13]
 Para cualquier otra contravención del procedimiento de saque de salida:
 
-[U0000102 | página 13]
+[U0000118 | página 13]
 • Se repetirá el saque de salida
 
-[U0000103 | página 13]
+[U0000119 | página 13]
 2. BALÓN A TIERRA.
 
-[U0000104 | página 13]
+[U0000120 | página 13]
 EL balón a tierra es una forma de reanudar el juego después de una interrupción temporal necesaria, cuando éste está en juego, y a causa de cualquier incidente no recogido en las Reglas de Juego.
 
-[U0000105 | página 13]
+[U0000121 | página 13]
 PROCEDIMIENTO
 
-[U0000106 | página 13]
+[U0000122 | página 13]
 1. El árbitro dejará caer el balón en el lugar donde se hallaba cuando fue interrumpido el juego, considerándose reanudado en cuanto aquél toque el suelo.
 2. Se volverá a dejar caer nuevamente el balón, anulando la ejecución:
 • Si es tocado por un jugador antes de tocar el suelo.
 • Si el balón sale del terreno de juego después de tocar el suelo, sin haber sido tocado por un jugador.
 
-[U0000107 | página 13]
+[U0000123 | página 13]
 CIRCUNSTANCIAS ESPECIALES:
 
-[U0000108 | página 13]
+[U0000124 | página 13]
 1. Un tiro libre, concedido al equipo defensor en su área de meta, podrá ser lanzado desde cualquier parte de dicha área.
 2. Un tiro libre indirecto, concedido al equipo atacante en el área de meta adversaria, será lanzado desde la línea del área de meta paralela a la línea de meta, en el punto más cercano al lugar dónde ocurrió la infracción.
 3. Un balón a tierra para reanudar el partido, después de que el juego haya sido interrumpido temporalmente dentro del área de meta, será ejecutado en la línea del área de meta paralela a la línea de meta, en el punto más cercano al lugar dónde se encontraba el balón cuando se detuvo el juego.
 
-[U0000109 | página 13]
+[U0000125 | página 13]
 Reglas de Juego del Fútbol - 7   13
 
-[U0000110 | página 14]
+[U0000126 | página 14]
 7
 
-[U0000111 | página 14]
+[U0000127 | página 14]
 REGLA IX
 EL BALÓN EN JUEGO O FUERA DEL JUEGO
 
-[U0000112 | página 14]
+[U0000128 | página 14]
 1. BALÓN EN JUEGO: El balón estará en juego en todo otro momento, incluso cuando:
 a) Rebota de los postes, travesaño o poste de esquina y permanece en el terreno de juego.
 b) Rebota del árbitro o árbitro asistente ubicado en el interior del terreno de juego.
 
-[U0000113 | página 14]
+[U0000129 | página 14]
 2. BALÓN FUERA DEL JUEGO: El balón estará fuera del juego cuando:
 a) Ha traspasado completamente una línea de banda o de meta, ya sea por tierra o por aire.
 b) El juego ha sido detenido por el árbitro.
 
-[U0000114 | página 14]
+[U0000130 | página 14]
 REGLA X
 EL GOL MARCADO
 
-[U0000115 | página 14]
+[U0000131 | página 14]
 1. Se habrá marcado un gol cuando el balón haya traspasado totalmente la línea de meta entre los postes y por debajo del travesaño, siempre que el equipo anotador no haya contravenido previamente las Reglas de Juego.
 2. El equipo que haya marcado el mayor número de goles ganará el partido.
 Si no hubiese marcado ningún gol o si ambos equipos marcaron los mismos goles, el partido terminará en empate.
@@ -453,46 +480,50 @@ a) Regla de goles marcados fuera de casa
 b) Tiempo suplementario
 c) Tiros desde el punto de penal
 
-[U0000116 | página 14]
+[U0000132 | página 14]
 REGLA XI
 EL FUERA DE JUEGO
 
-[U0000117 | página 14]
+[U0000133 | página 14]
 1. POSICIÓN DE FUERA DE JUEGO: El hecho de estar en una posición de fuera de juego, no constituye una infracción en sí.
 2. Un jugador estará en posición de fuera de juego, si estando en la zona de fuera de juego:
 • Se encuentra más cerca de la línea de meta contraria que el balón y el penúltimo adversario.
 
-[U0000118 | página 14]
+[U0000134 | página 14]
 14       www.rfef.es
 
-[U0000119 | página 15]
+[U0000135 | página 15]
 7
 
-[U0000120 | página 15]
+[U0000136 | página 15]
 3. Un jugador no estará en posición de fuera de juego si:
 a) Se encuentra fuera de la zona de fuera de juego.
 b) Está a la misma altura que el penúltimo adversario o
 c) Está a la misma altura que los dos últimos adversarios.
+
+[U0000137 | página 15]
 4. Un jugador en posición de fuera de juego será sancionado solamente si, en el momento en que el balón toca o es jugado por uno de sus compañeros, se encuentra, a juicio del árbitro:
 a) Interfiriendo el juego o
 b) Interfiriendo a un contrario o
 c) Tratando de ganar ventaja de dicha posición.
+
+[U0000138 | página 15]
 5. No existirá infracción de fuera de juego si el jugador recibe el balón directamente de:
 a) Un saque de esquina
 b) Un saque de banda o
 c) Un saque de meta
 
-[U0000121 | página 15]
+[U0000139 | página 15]
 INFRACCIONES / SANCIONES.
 
-[U0000122 | página 15]
+[U0000140 | página 15]
 Por cualquier infracción de fuera de juego, el árbitro deberá otorgar un tiro libre indirecto al equipo adversario, que será lanzado desde el lugar donde se produjo, salvo que fuera en el área de meta, en cuyo caso se ejecutará como se contempla en la Regla VIII en el capítulo de Circunstancias Especiales.
 
-[U0000123 | página 15]
+[U0000141 | página 15]
 REGLA XII
 FALTAS E INCORRECCCIONES
 
-[U0000124 | página 15]
+[U0000142 | página 15]
 1. Se concederá un tiro libre directo al equipo adversario si un jugador comete una de las siguientes infracciones de una manera que el árbitro considere imprudente, temeraria o con el uso de una fuerza excesiva:
 a) Dar o intentar dar una patada a un adversario.
 b) Poner una zancadilla a un contrario.
@@ -503,397 +534,413 @@ f) Empujar a un adversario
 g) Hacer una entrada a un adversario para ganar la posesión del balón tocándole antes que al balón
 h) Tocar el balón deliberadamente con las manos (salvo el portero en su área de penalti)
 
-[U0000125 | página 15]
+[U0000143 | página 15]
 Reglas de Juego del Fútbol - 7    15
 
-[U0000126 | página 16]
+[U0000144 | página 16]
 7
 
-[U0000127 | página 16]
+[U0000145 | página 16]
 i) Sujetar a un contrario
 j) Escupir a un adversario
 
-[U0000128 | página 16]
+[U0000146 | página 16]
 2. Se concederá un lanzamiento de penalti (Regla nº 14), si un jugador comete una de las diez infracciones antes mencionadas, dentro de su propia área de penalti, independientemente de la posición del balón y siempre que esté en juego.
 
-[U0000129 | página 16]
+[U0000147 | página 16]
 3. Se concederá un tiro libre indirecto al equipo adversario, si un guardameta comete una de las siguientes infracciones antes mencionadas, dentro de su propia área de penalti:
 
-[U0000130 | página 16]
+[U0000148 | página 16]
 a) Tarda más de seis segundos en poner el balón en juego, después de haberlo controlado con sus manos.
 b) Vuelve a tocar el balón con las manos después de haberlo puesto en juego y sin que cualquier otro jugador lo haya tocado.
 c) Toca el balón con las manos después de que el jugador de su equipo se lo haya cedido con el pie.
 d) Toca el balón con las manos después de haberlo recibido directamente de un saque de banda lanzado por un compañero.
 
-[U0000131 | página 16]
+[U0000149 | página 16]
 4. Se concederá un tiro libre indirecto al equipo adversario, si un jugador en opinión del árbitro:
 
-[U0000132 | página 16]
+[U0000150 | página 16]
 a) Juega de forma peligrosa.
 b) Obstaculiza el avance de un adversario.
 c) Impide que el guardameta pueda sacar el balón con las manos.
 d) Comete cualquier otra infracción que no haya sido anteriormente mencionada en las Reglas, por la cual el juego sea interrumpido para amonestarle o expulsarle.
 
-[U0000133 | página 16]
+[U0000151 | página 16]
 5. El tiro libre directo o indirecto, se lanzará desde el lugar donde se cometió la infracción, o en cualquier caso, atendiendo a las normas y reglas de juego al respecto.
 
-[U0000134 | página 16]
+[U0000152 | página 16]
 INFRACCIONES / SANCIONES
 
-[U0000135 | página 16]
+[U0000153 | página 16]
 Será expulsado temporalmente del terreno de juego, por dos minutos, no pudiendo ser reemplazado, el jugador que:
 
-[U0000136 | página 16]
+[U0000154 | página 16]
 a) Infrinja persistentemente las reglas de juego.
 b) Desapruebe con gestos o palabras las decisiones arbitrales.
 c) Juegue el balón con las manos, evitando una clara ocasión de gol.
 d) Impida el normal desarrollo del juego, interrumpiéndolo, agarrando o zancadilleando a un contrario, sin incurrir en agresión y evitando una clara ocasión de gol.
 e) Actúe de cualquier otra forma antideportiva, no contemplada en el párrafo anterior.
 
-[U0000137 | página 16]
+[U0000155 | página 16]
 16        www.rfef.es
 
-[U0000138 | página 17]
+[U0000156 | página 17]
 7
 
-[U0000139 | página 17]
+[U0000157 | página 17]
 Igualmente, será expulsado con carácter definitivo, no pudiendo ser reemplazado, el jugador:
 
-[U0000140 | página 17]
+[U0000158 | página 17]
 a) Que, expulsado con anterioridad del terreno de juego de forma temporal, reincida en cualquiera de los motivos que determinaron dicha expulsión temporal.
 
-[U0000141 | página 17]
+[U0000159 | página 17]
 Asimismo, será expulsado con carácter definitivo, no pudiendo ser reemplazado, el jugador:
 
-[U0000142 | página 17]
+[U0000160 | página 17]
 a) Que se emplee de forma violenta, brutal u ofensiva, con otro jugador, árbitro del encuentro, técnicos, restantes personas habilitadas en los banquillos o público asistente.
 b) Pronunciar palabras, frases o incurrir en gestos, acciones o actitudes, etc, que resulten ser intolerantes, racistas o xenófobas.
 
-[U0000143 | página 17]
+[U0000161 | página 17]
 DECISIONES DEL INTERNATIONAL F. A. BOARD
 
-[U0000144 | página 17]
+[U0000162 | página 17]
 Decisión 1
 
-[U0000145 | página 17]
+[U0000163 | página 17]
 Si un jugador comete una infracción sancionable con una expulsión temporal o definitiva, ya sea dentro o fuera del terreno de juego, contra un adversario, un compañero, el árbitro, un árbitro asistente o contra cualquier otra persona, será castigado conforme a la naturaleza de la infracción cometida.
 
-[U0000146 | página 17]
+[U0000164 | página 17]
 Decisión 2
 
-[U0000147 | página 17]
-Se considerará que el guardameta controla el balón, cuando lo toca con cualquier parte de sus manos o brazos. La posesión del balón incluirá, asimismo, la parada intencionada del guardameta, pero no incluye cuando - según el árbitro - el balón rebota accidentalmente en el guardameta, por ejemplo, tras efectuar una parada.
+[U0000165 | página 17]
+Se considerará que el guardameta controla el balón, cuando lo toca con cualquier parte de sus manos o brazos. La posesión del balón incluirá, asimismo, la parada intencionada del guardameta, pero no incluye cuando-según el árbitro- el balón rebota accidentalmente en el guardameta, por ejemplo, tras efectuar una parada.
 
-[U0000148 | página 17]
+[U0000166 | página 17]
 Decisión 3
 
-[U0000149 | página 17]
+[U0000167 | página 17]
 En virtud de las estipulaciones de la Regla XII, un jugador podrá pasar el balón a su guardameta utilizando la cabeza, el pecho o la rodilla, etc. No obstante, si en opinión del árbitro, un jugador emplea un truco deliberado para evadir las Reglas, mientras el balón está en juego, el jugador será sancionado con un tiro libre indirecto a ejecutar por el equipo adversario desde el lugar dónde se cometió la infracción.
 
-[U0000150 | página 17]
+[U0000168 | página 17]
 En tales circunstancias, será irrelevante si el guardameta toca o no posteriormente el balón con las manos. La infracción es cometida por el jugador que intenta burlar tanto la letra cómo el espíritu de la Regla XII.
 
-[U0000151 | página 17]
+[U0000169 | página 17]
 Decisión 4
 
-[U0000152 | página 17]
+[U0000170 | página 17]
 Una entrada por detrás, que ponga en peligro la integridad física de un adversario, deberá ser sancionada como juego brusco grave.
 
-[U0000153 | página 17]
+[U0000171 | página 17]
 Decisión 5
 
-[U0000154 | página 17]
+[U0000172 | página 17]
 Toda simulación en el terreno de juego que tenga por finalidad engañar al árbitro, será sancionada como conducta antideportiva.
 
-[U0000155 | página 17]
+[U0000173 | página 17]
 Reglas de Juego del Fútbol - 7      17
 
-[U0000156 | página 18]
+[U0000174 | página 18]
 7
 
-[U0000157 | página 18]
+[U0000175 | página 18]
 Decisión 6
 
-[U0000158 | página 18]
+[U0000176 | página 18]
 El jugador que se quite la camiseta al celebrar un gol, deberá ser sancionado por conducta antideportiva.
 
-[U0000159 | página 18]
+[U0000177 | página 18]
 REGLA XIII
+
+[U0000178 | página 18]
 EL TIRO LIBRE
 
-[U0000160 | página 18]
+[U0000179 | página 18]
 1. TIPOS DE TIROS LIBRES
 
-[U0000161 | página 18]
+[U0000180 | página 18]
 Los tiros libres pueden ser directos e indirectos.
 
-[U0000162 | página 18]
+[U0000181 | página 18]
 Tanto para los tiros libres directos como los indirectos, el balón deberá estar inmóvil cuando se lanza el tiro y el ejecutor no podrá volver a jugar el balón antes de que éste haya tocado a otro jugador.
 
-[U0000163 | página 18]
+[U0000182 | página 18]
 2. EL TIRO LIBRE DIRECTO
 
-[U0000164 | página 18]
+[U0000183 | página 18]
 • Si se introduce directamente en la meta contraria un tiro libre directo jugado con el pie, se concederá un gol.
 • Si se introduce en la meta propia un tiro libre directo jugado con el pie, se concederá un saque de esquina al equipo contrario.
 
-[U0000165 | página 18]
+[U0000184 | página 18]
 3. EL TIRO LIBRE INDIRECTO
 
-[U0000166 | página 18]
+[U0000185 | página 18]
 Señalización:
 
-[U0000167 | página 18]
+[U0000186 | página 18]
 El árbitro indicará un tiro libre indirecto levantando el brazo en alto por encima de su cabeza. Deberá mantener su brazo en dicha posición hasta que el tiro haya sido ejecutado y conservar la señalización hasta que el balón haya tocado a otro jugador o haya salido del terreno de juego.
 
-[U0000168 | página 18]
+[U0000187 | página 18]
 El balón entra en la meta:
 
-[U0000169 | página 18]
+[U0000188 | página 18]
 • El gol será válido si el balón toca a otro jugador antes de entrar en la meta.
 • Si se introduce directamente en la meta contraria un tiro libre indirecto jugado con el pié, se concederá saque de meta.
 • Si un tiro libre indirecto jugado con el pie, se introduce directamente en la meta propia, se concederá un saque de esquina al equipo contrario.
 
-[U0000170 | página 18]
+[U0000189 | página 18]
 POSICIÓN EN EL TIRO LIBRE
 
-[U0000171 | página 18]
+[U0000190 | página 18]
 1. Tiro libre dentro del área de penalti:
 
-[U0000172 | página 18]
+[U0000191 | página 18]
 Tiro libre directo o indirecto a favor del equipo defensor:
 
-[U0000173 | página 18]
+[U0000192 | página 18]
 • Todos los adversarios deberán encontrarse, como mínimo, a 6 metros del balón y, en todo caso, fuera del área de penalti hasta que el balón esté en juego.
 • El balón estará en juego apenas haya sido jugado con el pie directamente más allá del área de penalti.
 • Un tiro libre concedido en el área de meta podrá ser lanzado desde cualquier punto de dicha área.
 
-[U0000174 | página 18]
+[U0000193 | página 18]
 18        www.rfef.es
 
-[U0000175 | página 19]
+[U0000194 | página 19]
 7
 
-[U0000176 | página 19]
+[U0000195 | página 19]
 2. Tiro libre indirecto a favor del equipo atacante:
+
+[U0000196 | página 19]
 • Todos los adversarios deberán encontrarse como mínimo a 6 metros del balón hasta que esté en juego, salvo si se encuentran ubicados sobre su propia línea de meta entre los postes de meta.
 • El balón estará en juego en el momento en que es jugado con el pie y se pone en movimiento.
 • Un tiro libre indirecto concedido en el área de meta se lanzará desde el punto de la línea del área de meta, paralela a la línea de meta, más cercana al lugar donde se cometió la infracción.
 
-[U0000177 | página 19]
+[U0000197 | página 19]
 3. Tiro libre fuera del área de penalti:
+
+[U0000198 | página 19]
 • Todos los adversarios deberán encontrarse como mínimo a 6 metros del balón hasta que esté en juego.
 • El balón estará en juego en el momento en que es jugado con el pie y se pone en movimiento.
 • El tiro libre se lanzará desde el lugar dónde se cometió la infracción.
 
-[U0000178 | página 19]
+[U0000199 | página 19]
 INFRACCIONES/SANCIONES.
 
-[U0000179 | página 19]
+[U0000200 | página 19]
 Si al ejecutar un tiro libre un adversario se encuentra más cerca del balón que la distancia reglamentaria, se repetirá el tiro libre.
 
-[U0000180 | página 19]
+[U0000201 | página 19]
 Si el equipo defensor lanza un tiro libre jugado con el pie desde su propia área de penalti sin que el balón entre directamente en juego:
 
-[U0000181 | página 19]
+[U0000202 | página 19]
 • Se repetirá el tiro.
 
-[U0000182 | página 19]
+[U0000203 | página 19]
 TIRO LIBRE LANZADO POR CUALQUIER JUGADOR (EXCEPTO EL GUARDAMETA).
 
-[U0000183 | página 19]
+[U0000204 | página 19]
 1. Si el balón está en juego y el ejecutor del tiro libre toca por segunda vez el balón (excepto con sus manos) antes de que éste haya sido tocado por otro jugador:
-• Se concederá un tiro libre indirecto al equipo contrario.
+  • Se concederá un tiro libre indirecto al equipo contrario.
 
-[U0000184 | página 19]
+[U0000205 | página 19]
 2. Si el balón está en juego y el ejecutor del tiro libre toca intencionadamente el balón con las manos antes de que éste haya sido tocado por otro jugador:
-• Se concederá un tiro libre directo al equipo contrario.
-• Se concederá un tiro de penalti, si la infracción se cometió dentro del área de penalti del ejecutor.
+  • Se concederá un tiro libre directo al equipo contrario.
+  • Se concederá un tiro de penalti, si la infracción se cometió dentro del área de penalti del ejecutor.
 
-[U0000185 | página 19]
+[U0000206 | página 19]
 TIRO LIBRE LANZADO POR EL GUARDAMETA
 
-[U0000186 | página 19]
+[U0000207 | página 19]
 1. Si el balón está en juego y el guardameta toca por segunda vez el balón (excepto con sus manos), antes de que éste haya sido tocado por otro jugador:
-• Se concederá un tiro libre indirecto al equipo contrario.
+  • Se concederá un tiro libre indirecto al equipo contrario.
 
-[U0000187 | página 19]
+[U0000208 | página 19]
 Reglas de Juego del Fútbol - 7      19
 
-[U0000188 | página 20]
+[U0000209 | página 20]
 7
 
-[U0000189 | página 20]
+[U0000210 | página 20]
 2. Si el balón está en juego y el guardameta toca intencionadamente el balón con las manos antes de que éste haya sido tocado por otro jugador:
-• Se concederá un tiro libre indirecto al equipo contrario, si es dentro del área de meta.
-• Si es fuera del área, será un tiro libre directo.
+  • Se concederá un tiro libre indirecto al equipo contrario, si es dentro del área de meta.
+  • Si es fuera del área, será un tiro libre directo.
 
-[U0000190 | página 20]
+[U0000211 | página 20]
 REGLA XIV
 
-[U0000191 | página 20]
+[U0000212 | página 20]
 DEL PENALTI Y SU LANZAMIENTO
 
-[U0000192 | página 20]
+[U0000213 | página 20]
 El tiro de penalti
 
-[U0000193 | página 20]
+[U0000214 | página 20]
 Se concederá un tiro de penalti contra el equipo que comete dentro de su propio área de penalti y mientras el balón esté en juego, una de las diez infracciones tipificadas en la Regla XII y sancionadas con un tiro libre directo.
 
-[U0000194 | página 20]
+[U0000215 | página 20]
 Se podrá marcar un gol directamente de un tiro de penalti.
 
-[U0000195 | página 20]
+[U0000216 | página 20]
 Se concederá tiempo adicional para poder ejecutar un tiro de penalti al final de cada tiempo o al final de los periodos de tiempo suplementario.
 
-[U0000196 | página 20]
+[U0000217 | página 20]
 POSICIÓN DEL BALÓN Y DE LOS JUGADORES
 
-[U0000197 | página 20]
+[U0000218 | página 20]
 EL BALÓN:
+
+[U0000219 | página 20]
 • Se colocará en el punto de penalti.
 
-[U0000198 | página 20]
+[U0000220 | página 20]
 EL EJECUTOR DEL TIRO DE PENALTI:
+
+[U0000221 | página 20]
 • Deberá ser debidamente identificado.
 
-[U0000199 | página 20]
+[U0000222 | página 20]
 EL GUARDAMETA DEFENSOR:
+
+[U0000223 | página 20]
 • Deberá permanecer sobre su propia línea de meta, frente al ejecutor del tiro y entre los postes de la meta, hasta que el balón esté en juego.
 
-[U0000200 | página 20]
+[U0000224 | página 20]
 LOS JUGADORES, EXCEPTO EL EJECUTOR DEL TIRO, ESTARÁN UBICADOS:
+
+[U0000225 | página 20]
 • En el terreno de juego
 • Fuera del área de penalti
 • Detrás del punto de penalti
 • A un mínimo de 6 metros del punto de penalti
 
-[U0000201 | página 20]
+[U0000226 | página 20]
 El ÁRBITRO:
+
+[U0000227 | página 20]
 • No dará la señal de ejecutar el tiro de penalti hasta que todos los jugadores se encuentren ubicados en una posición conforme a la Regla
 • Decidirá cuándo se ha consumado el tiro de penalti
 
-[U0000202 | página 20]
+[U0000228 | página 20]
 PROCEDIMIENTO:
 
-[U0000203 | página 20]
+[U0000229 | página 20]
 • El ejecutor del tiro de penalti jugará el balón hacia delante con el pie.
 • No podrá volver a jugar el balón hasta que éste no haya tocado a otro jugador.
 • El balón estará en juego en el momento que es jugado con el pie y se pone en movimiento.
 
-[U0000204 | página 20]
+[U0000230 | página 20]
 20        www.rfef.es
 
-[U0000205 | página 21]
+[U0000231 | página 21]
 7
 
-[U0000206 | página 21]
+[U0000232 | página 21]
 Cuando se ejecuta un tiro de penalti durante el curso normal de un partido o cuando el periodo de juego se ha prolongado en el primer tiempo o al final del tiempo reglamentario con objeto de lanzar o volver a lanzar un tiro de penalti, se concederá un gol sí, antes de pasar entre los postes y bajo el travesaño:
 
-[U0000207 | página 21]
+[U0000233 | página 21]
 • El balón toca uno o ambos postes, o el travesaño o al guardameta
 
-[U0000208 | página 21]
+[U0000234 | página 21]
 CONTRAVENCIONES / SANCIONES
 
-[U0000209 | página 21]
+[U0000235 | página 21]
 Si el árbitro da la señal de ejecutar el tiro de penalti, antes de que el balón esté en juego, ocurre una de las siguientes situaciones:
 
-[U0000210 | página 21]
+[U0000236 | página 21]
 1. El ejecutor del tiro infringe las Reglas de Juego:
-• El árbitro permitirá que continúe la jugada
-• Si el balón entra en la meta, se repetirá el tiro
-• Si el balón no entra en la meta, no se repetirá el tiro
+  • El árbitro permitirá que continúe la jugada
+  • Si el balón entra en la meta, se repetirá el tiro
+  • Si el balón no entra en la meta, no se repetirá el tiro
 
-[U0000211 | página 21]
+[U0000237 | página 21]
 2. El guardameta infringe las Reglas de Juego:
-• El árbitro permitirá que continúe la jugada
-• Si el balón entra en la meta, se concederá un gol
-• Si el balón no entra en la meta, se repetirá el tiro
+  • El árbitro permitirá que continúe la jugada
+  • Si el balón entra en la meta, se concederá un gol
+  • Si el balón no entra en la meta, se repetirá el tiro
 
-[U0000212 | página 21]
+[U0000238 | página 21]
 3. Un compañero del ejecutor del tiro penetra en el área de penalti o se coloca delante del punto de penalti o a menos de 6 metros:
-• El árbitro permitirá que continúe la jugada
-• Si el balón entra en la meta, se repetirá el tiro
-• Si el balón no entra en la meta, no se repetirá el tiro
-• Si el balón rebota en el guardameta, el travesaño o en un poste de la meta y es tocado por éste jugador, el árbitro interrumpirá el partido y lo reanudará con un tiro libre indirecto a favor del equipo defensor.
+  • El árbitro permitirá que continúe la jugada
+  • Si el balón entra en la meta, se repetirá el tiro
+  • Si el balón no entra en la meta, no se repetirá el tiro
+  • Si el balón rebota en el guardameta, el travesaño o en un poste de la meta y es tocado por éste jugador, el árbitro interrumpirá el partido y lo reanudará con un tiro libre indirecto a favor del equipo defensor.
 
-[U0000213 | página 21]
+[U0000239 | página 21]
 4. Un compañero del guardameta penetra en el área de penalti o se coloca delante del punto de penalti o a menos de 6 metros:
-• El árbitro permitirá que continúe la jugada
-• Si el balón entra en la meta, se concederá un gol
-• Si el balón no entra en la meta, se repetirá el tiro
+  • El árbitro permitirá que continúe la jugada
+  • Si el balón entra en la meta, se concederá un gol
+  • Si el balón no entra en la meta, se repetirá el tiro
 
-[U0000214 | página 21]
+[U0000240 | página 21]
 5. Un jugador del equipo defensor y otro del equipo atacante infringen las Reglas de Juego:
-• Se repetirá el tiro
+  • Se repetirá el tiro
 
-[U0000215 | página 21]
+[U0000241 | página 21]
 6. Si después de que se haya lanzado un tiro de penalti, el ejecutor del tiro toca por segunda vez el balón (excepto con sus manos) antes de que el esférico haya tocado a otro jugador:
-• Se concederá un tiro libre indirecto al equipo contrario, que se lanzará desde el lugar donde se cometió la infracción
+  • Se concederá un tiro libre indirecto al equipo contrario, que se lanzará desde el lugar donde se cometió la infracción
 
-[U0000216 | página 21]
+[U0000242 | página 21]
 7. El ejecutor toca intencionadamente el balón con las manos antes de que el esférico haya tocado a otro jugador:
 
-[U0000217 | página 21]
+[U0000243 | página 21]
 Reglas de Juego del Fútbol - 7      21
 
-[U0000218 | página 22]
+[U0000244 | página 22]
 7
 
-[U0000219 | página 22]
+[U0000245 | página 22]
 • Se concederá un tiro libre directo al equipo contrario, que se lanzará desde el lugar dónde se cometió la infracción
 
-[U0000220 | página 22]
+[U0000246 | página 22]
 8. El balón toca cualquier otro objeto en el momento en que se mueve hacia delante:
 • Se repetirá el tiro
 
-[U0000221 | página 22]
+[U0000247 | página 22]
 9. El balón rebota hacia el terreno de juego en el guardameta, el travesaño o los postes, y toca luego cualquier otro objeto:
 • El árbitro detendrá el juego
 • El juego se reanudará con balón a tierra, que se lanzará desde el lugar dónde tocó el objeto
 
-[U0000222 | página 22]
+[U0000248 | página 22]
 REGLA XV
 EL SAQUE DE BANDA
 
-[U0000223 | página 22]
+[U0000249 | página 22]
 1. El saque de banda es, también, otra forma de reanudar el juego.
 
-[U0000224 | página 22]
+[U0000250 | página 22]
 2. De un saque de banda, en ningún caso, se podrá anotar un gol directamente.
 
-[U0000225 | página 22]
+[U0000251 | página 22]
 3. Se concederá saque de banda:
 a) Cuando el balón haya traspasado, en su totalidad, la línea de banda, ya sea por tierra o por aire, debiéndose ejecutar desde el punto por donde aquél salió del terreno de juego.
 b) El saque de banda corresponderá realizarlo a uno de los jugadores contrarios de aquél que tocó el balón por última vez y antes de salir del rectángulo de juego.
 
-[U0000226 | página 22]
+[U0000252 | página 22]
 4. En el lanzamiento de saque de banda, el ejecutor deberá:
 a) Estar de frente al terreno de juego, teniendo una parte de ambos pies sobre la línea de banda o en el exterior de la misma.
 b) Servirse de ambos manos, lanzando el balón desde atrás y por encima de la cabeza, no pudiendo volverlo a jugar hasta tanto éste no haya sido tocado o jugado por otro jugador.
 c) El balón estará en juego, tan pronto haya éste entrado en el terreno de juego.
 
-[U0000227 | página 22]
+[U0000253 | página 22]
 5. Si el saque de banda no fue realizado conforme a la Regla, el árbitro determinará efectuar un nuevo saque que, en este caso, habrá de ejecutar un jugador del equipo contrario.
 
-[U0000228 | página 22]
+[U0000254 | página 22]
 6. Saque de banda ejecutado por cualquier jugador excepto el guardameta:
 a) Si el balón está en juego y el ejecutor del saque de banda toca por segunda vez el balón (excepto con sus manos) antes de que éste haya sido tocado por otro jugador:
 • Se concederá un tiro libre indirecto al equipo contrario.
 
-[U0000229 | página 22]
-22       www.rfef.es
+[U0000255 | página 22]
+22 www.rfef.es
 
-[U0000230 | página 23]
+[U0000256 | página 23]
 7
 
-[U0000231 | página 23]
+[U0000257 | página 23]
 b) Si el balón está en juego y el ejecutor del saque de banda toca intencionadamente el balón con las manos antes de que éste haya sido tocado por otro jugador:
 • Se concederá un tiro libre directo al equipo contrario que lanzará desde el lugar donde se cometió la infracción.
 • Se concederá un tiro de penalti, si la infracción se cometió dentro del área de penalti del ejecutor.
 
-[U0000232 | página 23]
+[U0000258 | página 23]
 7. Saque de banda ejecutado por el guardameta:
 Si el balón está en juego y el guardameta toca por segunda vez el balón (excepto con sus manos) antes de que éste haya sido tocado por otro jugador:
 • Se concederá un tiro libre indirecto al equipo contrario que se lanzará desde el lugar donde se cometió la infracción.
@@ -901,38 +948,38 @@ Si el balón está en juego y el guardameta toca intencionadamente el balón con
 • Se concederá un tiro libre directo al equipo contrario.
 • Si la infracción se cometió dentro del área del penalti del ejecutor, se concederá un tiro libre indirecto en el punto más cercano al lugar donde se produjo la infracción.
 
-[U0000233 | página 23]
+[U0000259 | página 23]
 REGLA XVI
 EL SAQUE DE META
 
-[U0000234 | página 23]
+[U0000260 | página 23]
 1. El saque de meta es, igualmente, una forma de reanudar el juego.
 
-[U0000235 | página 23]
+[U0000261 | página 23]
 2. De un saque de meta, se podrá anotar un gol directamente, pero exclusivamente, contra el equipo adversario.
 
-[U0000236 | página 23]
+[U0000262 | página 23]
 3. Se concederá saque de meta:
 a) Cuando el balón haya traspasado, en su totalidad, la línea de meta ya sea por tierra o por aire, ello, después de haber tocado por último a un jugador del equipo atacante y, en todo caso, que no se hubiera marcado un gol conforme a la Regla X.
 
-[U0000237 | página 23]
+[U0000263 | página 23]
 4. En el saque de meta:
 a) Un jugador del equipo defensor, jugará el balón con el pie desde cualquier punto de su área de meta.
 b) Los jugadores contrarios deberán permanecer fuera del área de penalti, hasta que el balón esté en juego.
 c) El jugador que ejecute el saque, no podrá volver a jugar el balón hasta que éste no haya sido jugado por otro jugador.
 d) El balón se considerará en juego, únicamente, cuando haya sido lanzado, directamente, fuera del área de penalti.
 
-[U0000238 | página 23]
-Reglas de Juego del Fútbol - 7      23
+[U0000264 | página 23]
+Reglas de Juego del Fútbol - 7 23
 
-[U0000239 | página 24]
+[U0000265 | página 24]
 7
 
-[U0000240 | página 24]
+[U0000266 | página 24]
 5. INFRACCIONES / SANCIONES
 a) Si el balón no es lanzado directamente fuera del área de penalti, se repetirá el saque.
 
-[U0000241 | página 24]
+[U0000267 | página 24]
 6. Saque de meta ejecutado por cualquier jugador excepto el guardameta:
 a) Si el balón está en juego y el ejecutor del saque de meta toca por segunda vez el balón (excepto con sus manos) antes de que éste haya tocado a otro jugador:
 • Se concederá un tiro libre indirecto al equipo contrario que se lanzará desde el lugar donde se cometió la infracción.
@@ -940,7 +987,7 @@ b) Si el balón está en juego y el ejecutor del saque de meta toca intencionada
 • Se concederá un tiro libre directo al equipo contrario, que se ejecutará desde el lugar dónde se cometió la infracción.
 • Se concederá un tiro de penalti si la infracción se cometió dentro del área de penalti del ejecutor.
 
-[U0000242 | página 24]
+[U0000268 | página 24]
 7. Saque de meta ejecutado por el guardameta:
 a) Si el balón está en juego y el guardameta toca por segunda vez el balón (excepto con sus manos) antes de que éste haya sido tocado por otro jugador:
 • Se concederá un tiro libre indirecto al equipo contrario, que se lanzará desde el lugar dónde se cometió la infracción.
@@ -950,102 +997,108 @@ b) Si el balón está en juego y el guardameta toca intencionadamente el balón 
 c) Para cualquier otra contravención a la Regla:
 • Se repetirá el saque.
 
-[U0000243 | página 24]
-24       www.rfef.es
+[U0000269 | página 24]
+24 www.rfef.es
 
-[U0000244 | página 25]
+[U0000270 | página 25]
 7
 
-[U0000245 | página 25]
+[U0000271 | página 25]
 REGLA XVII
-
-[U0000246 | página 25]
 EL SAQUE DE ESQUINA
 
-[U0000247 | página 25]
+[U0000272 | página 25]
 1. Como en casos anteriores, el saque de esquina es, asimismo, una forma de reanudar el juego.
 
-[U0000248 | página 25]
+[U0000273 | página 25]
 2. De un saque de esquina, se podrá anotar directamente un gol, pero solamente será válido contra el equipo adversario.
 
-[U0000249 | página 25]
+[U0000274 | página 25]
 3. Se concederá saque de esquina:
 a) Cuando el balón haya traspasado, en su totalidad, la línea de meta, bien sea por tierra o por aire, y después de haber tocado por última vez en un jugador del equipo defensor y siempre que, igualmente, no se hubiere marcado un gol de conformidad con la Regla X.
 
-[U0000250 | página 25]
+[U0000275 | página 25]
 4. En el saque de esquina:
 a) El balón se colocará en el interior del cuadrante de esquina más cercano al lugar por donde éste salió, no estando permitido que para ejecutarlo, pueda quitarse el poste de dicho banderín de “corner”.
 b) Los jugadores contrarios al ejecutor, deberán permanecer a una distancia mínima de 6 metros del balón y hasta que éste esté en juego.
 c) El balón habrá de ser jugado con el pie por un jugador del equipo atacante, no pudiéndolo jugar por segunda vez hasta tanto no haya sido tocado por otro jugador.
 d) El balón se considerará en juego a todos los efectos, en el momento en que es jugado con el pie y es puesto en movimiento.
 
-[U0000251 | página 25]
+[U0000276 | página 25]
 5. INFRACCIONES / SANCIONES
 
-[U0000252 | página 25]
+[U0000277 | página 25]
 1. Saque de esquina ejecutado por cualquier jugador excepto el guardameta:
+
+[U0000278 | página 25]
 a) Si el balón está en juego y el ejecutor del saque de esquina toca por segunda vez el balón (excepto con sus manos) antes de que éste haya sido tocado por otro jugador:
 • Se concederá un tiro libre indirecto al equipo contrario, que se lanzará desde el lugar dónde se cometió la infracción.
+
+[U0000279 | página 25]
 b) Si el balón está en juego y el ejecutor del saque de esquina toca intencionadamente el balón con las manos antes de que éste haya sido tocado por otro jugador:
 • Se concederá un tiro libre directo al equipo contrario si es fuera del área, que se lanzará desde el lugar dónde se cometió la infracción.
 • Se concederá un tiro de penalti si la infracción se cometió dentro del área de penalti del ejecutor.
 
-[U0000253 | página 25]
+[U0000280 | página 25]
 2. Saque de esquina ejecutado por el guardameta:
 a) Si el balón está en juego y el guardameta toca por segunda vez el balón
 
-[U0000254 | página 25]
-Reglas de Juego del Fútbol - 7    25
+[U0000281 | página 25]
+Reglas de Juego del Fútbol - 7      25
 
-[U0000255 | página 26]
+[U0000282 | página 26]
 7
 
-[U0000256 | página 26]
+[U0000283 | página 26]
 (excepto con sus manos) antes de que éste haya sido tocado por otro jugador:
 • Se concederá un tiro libre indirecto al equipo contrario.
+
+[U0000284 | página 26]
 b) Si el balón está en juego y el guardameta toca intencionadamente el balón con las manos antes de que éste haya sido tocado por otro jugador:
 • Se concederá un tiro libre directo al equipo contrario, si es fuera del área del ejecutor, que se lanzará desde el lugar dónde se cometió la infracción.
 • Si la infracción se cometió dentro del área de penalti del ejecutor, se concederá un tiro libre indirecto al equipo contrario, que se lanzará desde el lugar dónde se cometió la infracción.
+
+[U0000285 | página 26]
 3. Para cualquier otra contravención a la Regla:
 • Se repetirá el saque.
 
-[U0000257 | página 26]
-26    www.rfef.es
+[U0000286 | página 26]
+26       www.rfef.es
 
-[U0000258 | página 27]
+[U0000287 | página 27]
 7
 
-[U0000259 | página 27]
+[U0000288 | página 27]
 N O T A S
 
-[U0000260 | página 27]
-Reglas de Juego del Fútbol - 7    27
+[U0000289 | página 27]
+Reglas de Juego del Fútbol - 7   27
 
-[U0000261 | página 28]
+[U0000290 | página 28]
 Edita:
 
-[U0000262 | página 28]
+[U0000291 | página 28]
 Real Federación Española de Fútbol
 Ciudad del Fútbol
 Ramón y Cajal, s/n. 28230 Las Rozas (Madrid)
 Tel: 914.959.800 Fax: 914.959.801
 www.rfef.es E-mail:rfef@rfef.es
 
-[U0000263 | página 28]
+[U0000292 | página 28]
 Diseño y realización:
 
-[U0000264 | página 28]
+[U0000293 | página 28]
 CENTUM, S.L.
 Campoamor, 14. 28004 Madrid
 Tel: 914.476.717
 
-[U0000265 | página 28]
+[U0000294 | página 28]
 Impresión:
 
-[U0000266 | página 28]
+[U0000295 | página 28]
 HELIOTIPIA ARTÍSTICA, S.L.
 Viriato, 22. 28010 Madrid
 Tel: 914.477.883
 
-[U0000267 | página 28]
+[U0000296 | página 28]
 Depósito Legal M-52829-2008
