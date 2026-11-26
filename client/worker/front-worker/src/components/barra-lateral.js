@@ -16,7 +16,7 @@ class BarraLateral extends HTMLElement {
       <style>
        .botones {
           box-sizing: border-box;
-          background-color: hsl(0, 3%, 13%);
+          background-color: var(--color-barras);
           width: 20%;
           height: 100vh;
           position: fixed;
@@ -83,7 +83,7 @@ class BarraLateral extends HTMLElement {
         .boton-nuevo-chat {
           width: 100%;
           padding: 0.5rem;
-          background-color: hsl(0, 3%, 13%);
+          background-color: var(--color-barras);
           color: hsl(0, 0%, 100%);
           border: none;
           border-radius: 0.5rem;

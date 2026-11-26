@@ -2,9 +2,10 @@ const express = require('express');
 const { createProxyMiddleware } = require('http-proxy-middleware');
 const app = express();
 
-function createProxy(target) {
+function createProxy(target, ws = false) {
   return createProxyMiddleware({
     target,
+    ws,
     cookieDomainRewrite: 'dev-lolito.ai.com',
     changeOrigin: true,
     pathRewrite: (_path, req) => req.originalUrl,
@@ -25,7 +26,7 @@ app.use('/admin/login', createProxy('http://localhost:5170'));
 app.use('/admin', createProxy('http://localhost:5171'));
 app.use('/login', createProxy('http://localhost:5176'));
 app.use('/cuenta', createProxy('http://localhost:5178'));
-app.use('/', createProxy('http://localhost:5177'));
+app.use('/', createProxy('http://localhost:5177', true));
 
 if (require.main === module) {
   app.listen(80, '127.0.0.1');

@@ -88,55 +88,54 @@ class PromptInput extends HTMLElement {
   }
 
   eventos() {
-    const form = this.shadow.querySelector('.prompt-input')
-    form.addEventListener('click', async event => {
+    const form = this.shadow.querySelector('form')
+    const textarea = form.elements.namedItem('userQuery')
+    const boton = form.querySelector('.boton-enviar')
+    const chat = this.closest('main-component')
+    const mensajes = chat.querySelector('#mensajes')
+    const zonaScroll = chat.shadowRoot.querySelector('.respuesta')
+
+    function agregarMensaje(rol, texto) {
+      const mensaje = document.createElement('p')
+      mensaje.classList.add('mensaje', `mensaje--${rol}`)
+      mensaje.textContent = texto
+      mensajes.append(mensaje)
+      zonaScroll.scrollTop = zonaScroll.scrollHeight
+    }
+
+    form.addEventListener('submit', async event => {
       event.preventDefault()
 
-      if (event.target.closest('.boton-enviar')) {
-        const form = this.shadow.querySelector('form')
-        const formData = new FormData(form)
-        const formDataJson = Object.fromEntries(formData.entries())
-        if (!formDataJson.userQuery?.trim()) return
+      const userQuery = textarea.value.trim()
+      if (!userQuery || boton.disabled) return
 
-        const chat = this.closest('main-component')
-        chat.classList.add('chat-activo')
+      boton.disabled = true
+      chat.classList.add('chat-activo')
+      agregarMensaje('usuario', userQuery)
+      form.reset()
 
-        try {
-          const result = await fetch(`${import.meta.env.VITE_API_URL}/api/worker/messages`, {
+      try {
+        const result = await fetch(
+          `${import.meta.env.VITE_API_URL}/api/worker/messages`,
+          {
             method: 'POST',
-            headers: {
-              'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(formDataJson)
-          })
-
-          if (result.ok) {
-            const respuesta = chat.querySelector('#respuesta')
-            const data = await result.json()
-            respuesta.textContent = data.answer
-            respuesta.parentElement.shadowRoot.querySelector('.respuesta').scrollTop = 0
-
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-              respuesta.animate(
-                [{ opacity: 0 }, { opacity: 1 }],
-                { duration: 240, easing: 'ease-out' }
-              )
-            }
-
-            form.reset()
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ userQuery })
           }
-        } catch (error) {
-          console.log(error)
-        }
+        )
 
+        if (!result.ok) throw new Error(`HTTP ${result.status}`)
+
+        const data = await result.json()
+        agregarMensaje('asistente', data.answer)
+      } catch (error) {
+        console.error('Error al enviar el mensaje:', error)
+        agregarMensaje('asistente', 'No pude obtener una respuesta. Inténtalo de nuevo.')
+      } finally {
+        boton.disabled = false
       }
     })
   }
 }
-
-
-
-
-
 
 customElements.define('prompt-input-component', PromptInput);
