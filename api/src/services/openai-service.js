@@ -43,6 +43,18 @@ module.exports = class OpenAIService {
 
     return response
   }
+  async generateTitle(userQuery) {
+    const response = await this.createResponse({
+      model: 'gpt-6-luna',
+      input: userQuery,
+      options: {
+        instructions: 'Resume el primer mensaje en un título de hasta 6 palabras. Devuelve solo el título, en el mismo idioma.',
+        store: false
+      }
+    })
+
+    return response.output_text?.trim() || 'Nueva conversación'
+  }
 
   submitToolOutputs(toolOutputs, model, options = {}) {
     if (!this.responseId) {

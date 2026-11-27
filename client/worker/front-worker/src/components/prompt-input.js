@@ -10,6 +10,7 @@ class PromptInput extends HTMLElement {
     this.eventos()
   }
 
+
   render() {
     this.shadow.innerHTML =
       /*html*/`
@@ -38,6 +39,7 @@ class PromptInput extends HTMLElement {
       .prompt-input textarea {
         width: 100%;
         min-width: 0;
+        resize: none;
         background-color: transparent;
         color: hsl(0, 0%, 100%);
         border: none;
@@ -94,6 +96,53 @@ class PromptInput extends HTMLElement {
     const chat = this.closest('main-component')
     const mensajes = chat.querySelector('#mensajes')
     const zonaScroll = chat.shadowRoot.querySelector('.respuesta')
+    const apiUrl = import.meta.env.VITE_API_URL ?? ''
+
+    let responseId
+    let conversationId
+
+    this.nuevoChat = () => {
+      if (boton.disabled) return
+
+      conversationId = undefined
+      responseId = undefined
+
+      mensajes.replaceChildren()
+      form.reset()
+      chat.classList.remove('chat-activo')
+      textarea.focus({ preventScroll: true })
+    }
+
+    this.abrirConversacion = async id => {
+      if (boton.disabled) return
+
+      boton.disabled = true
+
+      try {
+        const result = await fetch(
+          `${apiUrl}/api/worker/conversations/${encodeURIComponent(id)}`
+        )
+
+        if (!result.ok) {
+          throw new Error(`No se pudo abrir la conversación (${result.status}).`)
+        }
+
+        const conversacion = await result.json()
+
+        conversationId = conversacion.id
+        responseId = conversacion.responseId ?? undefined
+
+        mensajes.replaceChildren()
+        form.reset()
+        chat.classList.add('chat-activo')
+
+        for (const mensaje of conversacion.mensajes) {
+          agregarMensaje(mensaje.rol, mensaje.texto)
+        }
+      } finally {
+        boton.disabled = false
+      }
+    }
 
     function agregarMensaje(rol, texto) {
       const mensaje = document.createElement('p')
@@ -101,6 +150,42 @@ class PromptInput extends HTMLElement {
       mensaje.textContent = texto
       mensajes.append(mensaje)
       zonaScroll.scrollTop = zonaScroll.scrollHeight
+    }
+
+    textarea.addEventListener('keydown', event => {
+      if (event.key === 'Enter' && !event.shiftKey && !event.isComposing) {
+        event.preventDefault()
+        form.requestSubmit()
+      }
+    })
+
+    this.eliminarConversacion = async id => {
+      if (boton.disabled) {
+        throw new Error('Espera a que termine la operación actual.')
+      }
+
+      boton.disabled = true
+
+      try {
+        const result = await fetch(
+          `${apiUrl}/api/worker/conversations/${encodeURIComponent(id)}`,
+          { method: 'DELETE' }
+        )
+
+        if (!result.ok) {
+          throw new Error(`No se pudo eliminar el chat (${result.status}).`)
+        }
+
+        if (conversationId === id) {
+          conversationId = undefined
+          responseId = undefined
+          mensajes.replaceChildren()
+          form.reset()
+          chat.classList.remove('chat-activo')
+        }
+      } finally {
+        boton.disabled = false
+      }
     }
 
     form.addEventListener('submit', async event => {
@@ -111,47 +196,47 @@ class PromptInput extends HTMLElement {
 
       boton.disabled = true
       chat.classList.add('chat-activo')
-
-      if (mensajes.childElementCount === 0) {
-        const historial = document.querySelector('historial-component')
-
-        fetch(`${import.meta.env.VITE_API_URL}/api/worker/conversations/title`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ userQuery })
-        })
-          .then(result => {
-            if (!result.ok) throw new Error(`HTTP ${result.status}`)
-            return result.json()
-          })
-          .then(({ titulo }) => historial.agregarTitulo(titulo))
-          .catch(error => {
-            console.error('Error al generar el título:', error)
-            historial?.agregarTitulo?.('Nueva conversación')
-          })
-      }
-
       agregarMensaje('usuario', userQuery)
       form.reset()
+      const espera = document.createElement('div')
+      espera.className = 'mensaje mensaje--asistente mensaje--esperando'
+      espera.setAttribute('role', 'status')
+      espera.setAttribute('aria-label', 'Preparando respuesta')
+
+      espera.innerHTML = `
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      `
+
+      mensajes.append(espera)
+      zonaScroll.scrollTop = zonaScroll.scrollHeight
 
       try {
-        const result = await fetch(
-          `${import.meta.env.VITE_API_URL}/api/worker/messages`,
-          {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ userQuery })
-          }
-        )
+        const result = await fetch(`${apiUrl}/api/worker/messages`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ userQuery, responseId, conversationId })
+        })
 
         if (!result.ok) throw new Error(`HTTP ${result.status}`)
 
         const data = await result.json()
+        responseId = data.responseId ?? responseId
+        conversationId = data.conversationId ?? conversationId
+
         agregarMensaje('asistente', data.answer)
+
+        const historial = document.querySelector('historial-component')
+
+        if (data.conversationId && historial) {
+          historial.loadData().then(() => historial.render())
+        }
       } catch (error) {
         console.error('Error al enviar el mensaje:', error)
         agregarMensaje('asistente', 'No pude obtener una respuesta. Inténtalo de nuevo.')
       } finally {
+        espera.remove() // Quita los tres puntitos
         boton.disabled = false
       }
     })

@@ -188,6 +188,12 @@ class BarraLateral extends HTMLElement {
       this.toggleAttribute('cerrada', barraLateral.classList.contains('botones-cerrar'))
       cuenta.toggleAttribute("cerrada")
     })
+
+    const botonNuevoChat = this.shadow.querySelector('.boton-nuevo-chat')
+
+    botonNuevoChat.addEventListener('click', () => {
+      document.querySelector('prompt-input-component')?.nuevoChat()
+    })
   }
 }
 

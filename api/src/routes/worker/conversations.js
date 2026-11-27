@@ -5,5 +5,7 @@ const controller = require('../../controllers/worker/conversation-controller.js'
 router.get('/', controller.findAll)
 router.get('/:id', controller.findById)
 router.post('/title', controller.generateTitle)
+router.patch('/:id', controller.rename)
+router.delete('/:id', controller.remove)
 
 module.exports = router

@@ -55,8 +55,9 @@ exports.create = async (req, res, next) => {
     const candidates = [...candidatesByPath.values()]
 
     if (!candidates.length) {
-      res.status(200).send('No se encontraron PDF candidatos.')
-      return
+      return res.status(200).json({
+        answer: 'No se encontraron PDF candidatos.'
+      })
     }
 
     const stats = await Promise.all(
@@ -113,6 +114,12 @@ exports.create = async (req, res, next) => {
       openAIService.setResponseId(responseId)
     }
 
+    const tituloPendiente = conversationId
+      ? null
+      : new OpenAIService()
+        .generateTitle(userQuery)
+        .catch(() => 'Nueva conversación')
+
     const response = await openAIService.createResponse({
       input,
       model: 'gpt-6-luna',
@@ -133,6 +140,23 @@ exports.create = async (req, res, next) => {
         }
       }
     })
+
+    const servicioResumen = new OpenAIService()
+    servicioResumen.setResponseId(response.id)
+
+    const resumen = await servicioResumen.createResponse({
+      model: 'gpt-6-luna',
+      input: 'Resume la conversación completa hasta el último turno.',
+      options: {
+        instructions: 'Escribe un resumen de hasta 100 palabras en el idioma de la conversación. Incluye el tema principal, las conclusiones y las preguntas pendientes.',
+        store: false
+      }
+    })
+      .then(result => result.output_text?.trim() || null)
+      .catch(error => {
+        console.error('Error al generar el resumen:', error.message)
+        return null
+      })
 
     const usage = {
       inputTokens: response.usage?.input_tokens ?? 0,
@@ -156,7 +180,10 @@ exports.create = async (req, res, next) => {
         _id: currentConversationId
       }, {
         $push: { messages: { ...response, userQuery } },
-        $set: { updatedAt: new Date() },
+        $set: {
+          updatedAt: new Date(),
+          ...(resumen ? { resumen } : {})
+        },
         $inc: {
           'usage.inputTokens': usage.inputTokens,
           'usage.outputTokens': usage.outputTokens,
@@ -167,10 +194,10 @@ exports.create = async (req, res, next) => {
       if (!result.matchedCount) {
         throw new Error('Conversation not found')
       }
-
     } else {
-
       const conversation = await mongodbService.insertOne('conversations', {
+        titulo: await tituloPendiente,
+        resumen,
         messages: [{ ...response, userQuery }],
         createdAt: new Date(),
         updatedAt: new Date()

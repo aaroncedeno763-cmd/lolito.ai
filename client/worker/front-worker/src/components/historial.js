@@ -6,110 +6,27 @@ class Historial extends HTMLElement {
     this.data = []
   }
 
-  connectedCallback() {
-    this.loadData()
+  async connectedCallback() {
+    await this.loadData()
     this.render()
   }
 
-  loadData() {
-    this.data = [
-      {
-        pregunta: "¿Qué es la fotosíntesis?",
-        url: "#"
-      },
-      {
-        pregunta: "¿Cuál es la capital de Australia?",
-        url: "#"
-      },
-      {
-        pregunta: "¿Qué se puede hacer si te encuentras a un oso?",
-        url: "#"
-      },
-      {
-        pregunta: "¿Qué es la fotosíntesis?",
-        url: "#"
-      },
-      {
-        pregunta: "¿Cuál es la capital de Australia?",
-        url: "#"
-      },
-      {
-        pregunta: "¿Qué se puede hacer si te encuentras a un oso?",
-        url: "#"
-      },
-      {
-        pregunta: "¿Qué es la fotosíntesis?",
-        url: "#"
-      },
-      {
-        pregunta: "¿Cuál es la capital de Australia?",
-        url: "#"
-      },
-      {
-        pregunta: "¿Qué se puede hacer si te encuentras a un oso?",
-        url: "#"
-      },
-      {
-        pregunta: "¿Qué es la fotosíntesis?",
-        url: "#"
-      },
-      {
-        pregunta: "¿Cuál es la capital de Australia?",
-        url: "#"
-      },
-      {
-        pregunta: "¿Qué se puede hacer si te encuentras a un oso?",
-        url: "#"
-      },
-      {
-        pregunta: "¿Qué es la fotosíntesis?",
-        url: "#"
-      },
-      {
-        pregunta: "¿Cuál es la capital de Australia?",
-        url: "#"
-      },
-      {
-        pregunta: "¿Qué se puede hacer si te encuentras a un oso?",
-        url: "#"
-      },
-      {
-        pregunta: "¿Qué es la fotosíntesis?",
-        url: "#"
-      },
-      {
-        pregunta: "¿Cuál es la capital de Australia?",
-        url: "#"
-      },
-      {
-        pregunta: "¿Qué se puede hacer si te encuentras a un oso?",
-        url: "#"
-      },
-      {
-        pregunta: "¿Qué es la fotosíntesis?",
-        url: "#"
-      },
-      {
-        pregunta: "¿Cuál es la capital de Australia?",
-        url: "#"
-      },
-      {
-        pregunta: "¿Qué se puede hacer si te encuentras a un oso?",
-        url: "#"
-      },
-      {
-        pregunta: "¿Qué es la fotosíntesis?",
-        url: "#"
-      },
-      {
-        pregunta: "¿Cuál es la capital de Australia?",
-        url: "#"
-      },
-      {
-        pregunta: "¿Qué se puede hacer si te encuentras a un oso?",
-        url: "#"
-      },
-    ]
+  async loadData() {
+    try {
+      const apiUrl = import.meta.env.VITE_API_URL ?? ''
+      const result = await fetch(`${apiUrl}/api/worker/conversations`)
+
+      if (!result.ok) throw new Error(`HTTP ${result.status}`)
+
+      const conversaciones = await result.json()
+
+      this.data = conversaciones.map(({ id, titulo }) => ({
+        id,
+        pregunta: titulo
+      }))
+    } catch (error) {
+      console.error('Error al cargar el historial:', error)
+    }
   }
 
   render() {
@@ -176,6 +93,46 @@ class Historial extends HTMLElement {
       .historial li:hover{
         background-color: hsl(0, 0%, 39%);
       }
+      .nombre-chat {
+        width: 100%;
+        border: 0;
+        padding: 0;
+        background: transparent;
+        color: inherit;
+        font: inherit;
+        text-align: left;
+        cursor: pointer;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .historial li {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        align-items: start;
+        gap: 0.5rem;
+      }
+
+      .opciones-chat summary {
+        list-style: none;
+        text-align: right;
+        cursor: pointer;
+      }
+
+      .opciones-chat summary::-webkit-details-marker {
+        display: none;
+      }
+
+      .opciones-chat button {
+        display: block;
+        padding: 0.35rem 0.5rem;
+        border: 0;
+        background: transparent;
+        color: inherit;
+        font: inherit;
+        cursor: pointer;
+      }
 
     </style>
 
@@ -195,12 +152,78 @@ class Historial extends HTMLElement {
 
     this.data.forEach(chat => {
       const li = document.createElement('li')
-      li.href = chat.url
-      li.textContent = chat.pregunta
-      ul.appendChild(li)
-    });
+      const boton = document.createElement('button')
 
+      boton.type = 'button'
+      boton.className = 'nombre-chat'
+      boton.textContent = chat.pregunta
+
+      boton.addEventListener('click', async () => {
+        const input = document.querySelector('prompt-input-component')
+
+        try {
+          await input.abrirConversacion(chat.id)
+        } catch (error) {
+          window.alert(error.message)
+        }
+      })
+
+      const menu = document.createElement('details')
+      menu.className = 'opciones-chat'
+
+      menu.innerHTML = `
+        <summary aria-label="Opciones del chat">⋯</summary>
+        <button type="button" data-accion="renombrar">Renombrar</button>
+        <button type="button" data-accion="eliminar">Eliminar</button>
+      `
+      menu.querySelector('[data-accion="renombrar"]').addEventListener('click', async () => {
+        menu.open = false
+
+        const titulo = window.prompt('Nuevo nombre del chat', chat.pregunta)?.trim()
+        if (!titulo) return
+
+        try {
+          const apiUrl = import.meta.env.VITE_API_URL ?? ''
+          const result = await fetch(
+            `${apiUrl}/api/worker/conversations/${encodeURIComponent(chat.id)}`,
+            {
+              method: 'PATCH',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ titulo })
+            }
+          )
+
+          if (!result.ok) {
+            throw new Error(`No se pudo renombrar el chat (${result.status}).`)
+          }
+
+          await this.loadData()
+          this.render()
+        } catch (error) {
+          window.alert(error.message)
+        }
+      })
+
+      menu.querySelector('[data-accion="eliminar"]').addEventListener('click', async () => {
+        menu.open = false
+
+        if (!window.confirm(`¿Eliminar «${chat.pregunta}»?`)) return
+
+        try {
+          const input = document.querySelector('prompt-input-component')
+          await input.eliminarConversacion(chat.id)
+
+          await this.loadData()
+          this.render()
+        } catch (error) {
+          window.alert(error.message)
+        }
+      })
+      li.append(boton, menu)
+      ul.appendChild(li)
+    })
   }
+
 }
 
 customElements.define('historial-component', Historial);
